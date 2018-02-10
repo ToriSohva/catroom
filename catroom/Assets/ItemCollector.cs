@@ -27,8 +27,10 @@ public class ItemCollector : MonoBehaviour {
         var collFire = collider.GetComponent<FireItem>();
         if (collFire != null) {
             if (collFire.ShouldAddWood() == true) {
-                inventory.DropOneOfType(CollectibleItem.ItemType.Firewood, collFire.BurnWood);
-                Debug.Log("Burned one firewood");
+                bool success = inventory.DropOneOfType(CollectibleItem.ItemType.Firewood, collFire.BurnWood);
+                if (success == true) {
+                    Debug.Log("Burned one firewood");
+                }
             }
             else {
                 Debug.Log("Fire was already hot enough; didn't burn any wood");

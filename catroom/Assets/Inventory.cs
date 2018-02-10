@@ -18,22 +18,28 @@ public class Inventory : MonoBehaviour {
 
     public delegate void DropHandler(CollectibleItem item);
 
-    public void Drop (CollectibleItem item, DropHandler handler = null) {
-        if (handler != null) {
-            handler.Invoke(item);
+    public bool Drop (CollectibleItem item, DropHandler handler = null) {
+        if (item != null) {
+            if (handler != null) {
+                handler.Invoke(item);
+            }
+
+            items.Remove(item);
+            return true;
         }
-
-        items.Remove(item);
+        else {
+            return false;
+        }
     }
 
-    public void Drop (int index, DropHandler handler = null) {
+    public bool Drop (int index, DropHandler handler = null) {
         CollectibleItem item = items[index];
-        Drop(item, handler);
+        return Drop(item, handler);
     }
 
-    public void DropOneOfType (CollectibleItem.ItemType itemType, DropHandler handler = null) {
+    public bool DropOneOfType (CollectibleItem.ItemType itemType, DropHandler handler = null) {
         CollectibleItem item = items.Find(i => i.itemType == itemType);
-        Drop(item, handler);
+        return Drop(item, handler);
     }
 
     public void DropAllOfType (CollectibleItem.ItemType itemType, DropHandler handler = null) {
