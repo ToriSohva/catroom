@@ -21,6 +21,7 @@ public class MushroomItem : MonoBehaviour {
     public float maxHealth;
     public float minHealthMultiplier;
     public Transform hudNeedle;
+    public GameObject fireWarning;
     float size;
     float health;
 
@@ -38,6 +39,15 @@ public class MushroomItem : MonoBehaviour {
 
         float needleRotation = Mathf.Clamp((GetTotalHeat() / GetMaxHeat()) * 180f, 0, 180);
         hudNeedle.rotation = Quaternion.Euler(0, 0, needleRotation);
+
+        int warnings = GetFireWarnings();
+
+        if (warnings > 0 && fireWarning.active == false) {
+            fireWarning.SetActive(true);
+        }
+        else if (warnings <= 0 && fireWarning.active == true) {
+            fireWarning.SetActive(false);
+        }
     }
 
     float GetTotalHeat() {
@@ -56,6 +66,17 @@ public class MushroomItem : MonoBehaviour {
         }
 
         return total;
+    }
+
+    int GetFireWarnings () {
+        int result = 0;
+        foreach (FireItem item in fireItems) {
+            if (item.GetWarningStatus() == true) {
+                result += 1;
+            }
+        }
+
+        return result;
     }
 
     float GetMultiplier() {

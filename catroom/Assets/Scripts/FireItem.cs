@@ -6,6 +6,7 @@ public class FireItem : MonoBehaviour {
 
     public float maxHeat;
     public float addWoodThreshold;
+    public float warningThreshold;
     public List<float> heatLevelThresholds;
     public float burnRate;
     float heat;
@@ -39,6 +40,10 @@ public class FireItem : MonoBehaviour {
 
     public int GetMaxHeat() {
         return thresholds.Count;
+    }
+
+    public bool GetWarningStatus() {
+        return heat <= warningThreshold;
     }
 
     public void BurnWood(CollectibleItem item) {
