@@ -72,6 +72,7 @@ public class Enemy : MonoBehaviour {
                 attackCooldownTimer = DateTime.Now;
                 GetComponent<Animator>().SetTrigger("Attack");
                 clips.RandomPitchPlay(clips.bearAttacksSource);
+                clips.RandomPitchPlay(clips.catMoansSource);
                 attackManager.EnemyAttack(transform.position, direction, damage);
             }
             else

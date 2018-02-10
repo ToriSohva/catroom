@@ -10,6 +10,7 @@ public class Clips : MonoBehaviour {
     public AudioClip walking;
     public AudioClip catAttack;
     public AudioClip catDies;
+    public AudioClip catMoans;
     public AudioClip bearAttacks;
     public AudioClip bearFollows;
     public AudioClip bearMoans;
@@ -17,6 +18,7 @@ public class Clips : MonoBehaviour {
     public AudioSource walkingSource;
     public AudioSource catAttackSource;
     public AudioSource catDieSource;
+    public AudioSource catMoansSource;
     public AudioSource bearAttacksSource;
     public AudioSource bearFollowsSource;
     public AudioSource bearMoansSource;
@@ -40,6 +42,7 @@ public class Clips : MonoBehaviour {
         bearAttacksSource = AddAudio(bearAttacks, false, true, 0.2f);
         bearFollowsSource = AddAudio(bearFollows, true, true, 0.2f);
         bearMoansSource = AddAudio(bearMoans, false, true, 0.2f);
+        catMoansSource = AddAudio(catMoans, false, true, 0.2f);
     }
 
     public void RandomPitchPlay(AudioSource source)

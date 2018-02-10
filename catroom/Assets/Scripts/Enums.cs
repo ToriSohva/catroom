@@ -9,8 +9,3 @@ public enum Direction
     Right,
     Left
 }
- public enum EntityType
-{
-    Player,
-    Enemy
-}
