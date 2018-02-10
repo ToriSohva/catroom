@@ -5,7 +5,7 @@ using UnityEngine;
 public class FireItem : MonoBehaviour {
 
     public float maxHeat;
-    public float addWoodTreshold;
+    public float addWoodThreshold;
     float heat;
 
 	void Start () {
@@ -17,7 +17,7 @@ public class FireItem : MonoBehaviour {
 	}
 
     public bool ShouldAddWood() {
-        return heat < addWoodTreshold;
+        return heat < addWoodThreshold;
     }
 
     public void BurnWood(CollectibleItem item) {

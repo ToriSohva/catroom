@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHeat: 50
-  addWoodTreshold: 45
+  addWoodThreshold: 45
 --- !u!212 &212740919655012284
 SpriteRenderer:
   m_ObjectHideFlags: 1
