@@ -70,6 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHeat: 50
   addWoodThreshold: 45
+  warningThreshold: 40
   heatLevelThresholds:
   - 45
   - 15
