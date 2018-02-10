@@ -69,6 +69,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialSize: 3
+  fireItems:
+  - {fileID: 114863511932296666, guid: f44580b66c5b88c488506ec6e89b6428, type: 2}
+  healthThresholdMultipliers:
+  - threshold: 0
+    multiplier: 2.5
+  - threshold: 0
+    multiplier: 1
+  - threshold: 0
+    multiplier: 0
+  - threshold: 0
+    multiplier: -1
+  maxHealth: 50
+  minHealthMultiplier: -5
 --- !u!212 &212452663865639932
 SpriteRenderer:
   m_ObjectHideFlags: 1
