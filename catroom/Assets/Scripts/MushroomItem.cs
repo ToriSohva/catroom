@@ -20,6 +20,7 @@ public class MushroomItem : MonoBehaviour {
     public List<ThresholdMultiplier> healthThresholdMultipliers = new List<ThresholdMultiplier>();
     public float maxHealth;
     public float minHealthMultiplier;
+    public Transform hudNeedle;
     float size;
     float health;
 
@@ -29,20 +30,29 @@ public class MushroomItem : MonoBehaviour {
     }
 
     void Update () {
-        health += Time.deltaTime * GetMultiplier();
-        if (health > maxHealth) {
-            health = maxHealth;
-        }
+        health = Mathf.Clamp(health + Time.deltaTime * GetMultiplier(), 0, maxHealth);
 
         if (health <= 0) {
             Debug.Log("Mushroom is dead, game over");
         }
+
+        float needleRotation = Mathf.Clamp((GetTotalHeat() / GetMaxHeat()) * 180f, 0, 180);
+        hudNeedle.rotation = Quaternion.Euler(0, 0, needleRotation);
     }
 
     float GetTotalHeat() {
         float total = 0f;
         foreach (FireItem item in fireItems) {
             total += item.GetHeatLevel();
+        }
+
+        return total;
+    }
+
+    float GetMaxHeat() {
+        int total = 0;
+        foreach (FireItem item in fireItems) {
+            total += item.GetMaxHeat();
         }
 
         return total;
