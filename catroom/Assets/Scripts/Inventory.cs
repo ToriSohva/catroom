@@ -1,15 +1,42 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Inventory : MonoBehaviour {
     List<CollectibleItem> items = new List<CollectibleItem>();
     public int sizeLimit;
+    public TMP_Text magicItemLabel;
+    public TMP_Text fireWoodLabel;
 
-    public bool Pick (CollectibleItem item) {
+    int magicItemCount;
+    int fireWoodCount;
+
+    void Start() {
+        magicItemCount = 0;
+        fireWoodCount = 0;
+        magicItemLabel.text = "x" + magicItemCount;
+        fireWoodLabel.text = "x" + fireWoodCount;
+    }
+
+    void UpdateInventoryLabel(CollectibleItem.ItemType itemType, int change) {
+        if (itemType == CollectibleItem.ItemType.ShroomItem) {
+            magicItemCount += change;
+            magicItemLabel.text = "x" + magicItemCount;
+        }
+        else if (itemType == CollectibleItem.ItemType.Firewood) {
+            fireWoodCount += change;
+            fireWoodLabel.text = "x" + fireWoodCount;
+        }
+    }
+
+    public bool Pick(CollectibleItem item) {
         if (items.Count < sizeLimit) {
             items.Add(item);
             Debug.Log(items.Count);
+
+            UpdateInventoryLabel(item.itemType, 1);
+
             return true;
         }
 
@@ -23,6 +50,7 @@ public class Inventory : MonoBehaviour {
             if (handler != null) {
                 handler.Invoke(item);
             }
+            UpdateInventoryLabel(item.itemType, -1);
 
             items.Remove(item);
             return true;
