@@ -17,7 +17,6 @@ public class FireItem : MonoBehaviour {
         heat = maxHeat;
         thresholds = new List<float>(heatLevelThresholds);
         thresholds.Sort();
-        thresholds.Reverse();
     }
 	
 	void Update () {

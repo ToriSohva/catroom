@@ -74,7 +74,7 @@ public class MushroomItem : MonoBehaviour {
     }
 
     float GetTotalHeat() {
-        float total = 0f;
+        float total = 0;
         foreach (FireItem item in fireItems) {
             total += item.GetHeatLevel();
         }
