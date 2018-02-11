@@ -21,7 +21,7 @@ public class FireItem : MonoBehaviour {
     }
 	
 	void Update () {
-        heat -= Time.deltaTime * burnRate;
+        heat = Mathf.Clamp(heat - Time.deltaTime * burnRate, 0, maxHeat);
 	}
 
     public bool ShouldAddWood() {
