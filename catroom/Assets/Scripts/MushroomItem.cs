@@ -56,7 +56,7 @@ public class MushroomItem : MonoBehaviour {
             Debug.Log("Mushroom is dead, game over");
         }
 
-        float needleRotation = Mathf.Clamp((GetTotalHeat() / GetMaxHeat()) * 180f, 0, 180);
+        float needleRotation = Mathf.Clamp((GetTotalHeat() / GetMaxHeat()) * -180f, -180, 0);
         hudNeedle.rotation = Quaternion.Euler(0, 0, needleRotation);
 
         int warnings = GetFireWarnings();
