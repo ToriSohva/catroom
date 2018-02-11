@@ -50,4 +50,8 @@ public class FireItem : MonoBehaviour {
         heat = maxHeat;
         Debug.Log("Heat is now " + heat);
     }
+
+    public float DebugGetHeatValue() {
+        return heat;
+    }
 }
