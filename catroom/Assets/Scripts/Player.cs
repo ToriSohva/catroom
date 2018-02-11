@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
     private HealthManager healthManager;
 
     public Clips clips;
+    public InputManager inputManager;
 
     private DateTime AttackCooldownTimer;
     private bool AttackCooldown;
@@ -58,7 +59,7 @@ public class Player : MonoBehaviour {
     void CheckActions()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space) && !AttackCooldown)
+        if (inputManager.AttackButton() && !AttackCooldown)
         {
             AttackCooldown = true;
             AttackCooldownTimer = DateTime.Now;
@@ -78,8 +79,8 @@ public class Player : MonoBehaviour {
 
     void CheckMovement()
     {
-        
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+
+        if (inputManager.MoveDownButton())
         {
             body = Movement.MoveLeft(body, Speed);
             Direction = Direction.Left;
@@ -87,7 +88,7 @@ public class Player : MonoBehaviour {
             if (!clips.walkingSource.isPlaying)
                 clips.walkingSource.Play();
         }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        if (inputManager.MoveRightButton())
         {
             body = Movement.MoveRight(body, Speed);
             Direction = Direction.Right;
@@ -95,7 +96,7 @@ public class Player : MonoBehaviour {
             if (!clips.walkingSource.isPlaying)
                 clips.walkingSource.Play();
         }
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+        if (inputManager.MoveDownButton())
         {
             body = Movement.MoveDown(body, Speed);
             Direction = Direction.Down;
@@ -103,7 +104,7 @@ public class Player : MonoBehaviour {
             if (!clips.walkingSource.isPlaying)
                 clips.walkingSource.Play();
         }
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        if (inputManager.MoveUpButton())
         {
             body = Movement.MoveUp(body, Speed);
             Direction = Direction.Up;
@@ -111,14 +112,15 @@ public class Player : MonoBehaviour {
             if (!clips.walkingSource.isPlaying)
                 clips.walkingSource.Play();
         }
-        if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.DownArrow) ){
+        if (!inputManager.MoveDownButton() && !inputManager.MoveUpButton() && Input.GetAxis("Vertical") == 0)
+        {
             body = Movement.StopVertical(body);
         }
-        if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.LeftArrow))
+        if (!inputManager.MoveLeftButton() && !inputManager.MoveRightButton() && Input.GetAxis("Horizontal") == 0)
         {
             body = Movement.StopHorizontal(body);
         }
-        if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.DownArrow))
+        if (!inputManager.MoveLeftButton() && !inputManager.MoveRightButton() && !inputManager.MoveDownButton() && !inputManager.MoveUpButton() && Input.GetAxis("Horizontal") == 0 && Input.GetAxis("Vertical") == 0)
         {
             if (clips.walkingSource.isPlaying)
                 clips.walkingSource.Stop();
