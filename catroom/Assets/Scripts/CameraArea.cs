@@ -12,6 +12,7 @@ public class CameraArea : MonoBehaviour {
 		CameraTarget target = collider.GetComponent<CameraTarget> ();
 		if (target != null) {
 			CameraOverlord.instance.PromoteCamera (areaCamera);
+			MapGenerator.instance.CullRooms ();
 		}
 	}
 
