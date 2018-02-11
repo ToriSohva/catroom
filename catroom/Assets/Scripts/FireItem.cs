@@ -17,11 +17,10 @@ public class FireItem : MonoBehaviour {
         heat = maxHeat;
         thresholds = new List<float>(heatLevelThresholds);
         thresholds.Sort();
-        thresholds.Reverse();
     }
 	
 	void Update () {
-        heat -= Time.deltaTime * burnRate;
+        heat = Mathf.Clamp(heat - Time.deltaTime * burnRate, 0, maxHeat);
 	}
 
     public bool ShouldAddWood() {
@@ -49,5 +48,9 @@ public class FireItem : MonoBehaviour {
     public void BurnWood(CollectibleItem item) {
         heat = maxHeat;
         Debug.Log("Heat is now " + heat);
+    }
+
+    public float DebugGetHeatValue() {
+        return heat;
     }
 }

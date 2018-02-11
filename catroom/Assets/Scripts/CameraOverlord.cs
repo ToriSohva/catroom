@@ -19,6 +19,10 @@ public class CameraOverlord : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+	}
+
+	public void SearchCameras() {
+		cameras.Clear ();
 		cameras.AddRange(GameObject.FindObjectsOfType<CinemachineVirtualCamera>());
 	}
 	

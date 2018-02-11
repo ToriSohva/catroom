@@ -68,14 +68,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b76744307ad8d0348bce67fb29ae2673, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHeat: 50
-  addWoodThreshold: 45
-  warningThreshold: 40
+  maxHeat: 100
+  addWoodThreshold: 90
+  warningThreshold: 30
   heatLevelThresholds:
-  - 45
-  - 15
-  - 5
-  burnRate: 1
+  - 90
+  - 65
+  - 35
+  - 10
+  burnRate: 1.2
 --- !u!212 &212740919655012284
 SpriteRenderer:
   m_ObjectHideFlags: 1

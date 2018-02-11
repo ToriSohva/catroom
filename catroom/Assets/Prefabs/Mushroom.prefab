@@ -72,16 +72,26 @@ MonoBehaviour:
   fireItems:
   - {fileID: 114863511932296666, guid: f44580b66c5b88c488506ec6e89b6428, type: 2}
   healthThresholdMultipliers:
-  - threshold: 0
+  - threshold: 11
     multiplier: 2.5
-  - threshold: 0
-    multiplier: 1
-  - threshold: 0
+  - threshold: 9
+    multiplier: 0.1
+  - threshold: 7
     multiplier: 0
-  - threshold: 0
+  - threshold: 6
+    multiplier: -0.1
+  - threshold: 3
     multiplier: -1
   maxHealth: 50
   minHealthMultiplier: -5
+  hudNeedle: {fileID: 0}
+  fireWarning: {fileID: 0}
+  showDebug: 0
+  debugStats:
+    MushroomHealthLabel: {fileID: 0}
+    MushroomTemperatureLabel: {fileID: 0}
+    FireTemperaturesLabel: {fileID: 0}
+    FireHeatLabel: {fileID: 0}
 --- !u!212 &212452663865639932
 SpriteRenderer:
   m_ObjectHideFlags: 1

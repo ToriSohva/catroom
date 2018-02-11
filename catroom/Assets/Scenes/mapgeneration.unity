@@ -1,0 +1,5604 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &89592528
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4793175321814834, guid: a6b7c24218023154ab9a43031690bf88, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793175321814834, guid: a6b7c24218023154ab9a43031690bf88, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -7.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793175321814834, guid: a6b7c24218023154ab9a43031690bf88, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793175321814834, guid: a6b7c24218023154ab9a43031690bf88, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793175321814834, guid: a6b7c24218023154ab9a43031690bf88, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793175321814834, guid: a6b7c24218023154ab9a43031690bf88, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793175321814834, guid: a6b7c24218023154ab9a43031690bf88, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793175321814834, guid: a6b7c24218023154ab9a43031690bf88, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114716910708926428, guid: a6b7c24218023154ab9a43031690bf88,
+        type: 2}
+      propertyPath: magicItemLabel
+      value: 
+      objectReference: {fileID: 804646540}
+    - target: {fileID: 114716910708926428, guid: a6b7c24218023154ab9a43031690bf88,
+        type: 2}
+      propertyPath: fireWoodLabel
+      value: 
+      objectReference: {fileID: 804646539}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a6b7c24218023154ab9a43031690bf88, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &89592529 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4793175321814834, guid: a6b7c24218023154ab9a43031690bf88,
+    type: 2}
+  m_PrefabInternal: {fileID: 89592528}
+--- !u!1 &418634444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 418634446}
+  - component: {fileID: 418634445}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!156049354 &418634445
+Grid:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 418634444}
+  m_Enabled: 1
+  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellGap: {x: 0, y: 0, z: 0}
+  m_CellLayout: 0
+  m_CellSwizzle: 0
+--- !u!4 &418634446
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 418634444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1736593438}
+  - {fileID: 898121080}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &693403260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 693403261}
+  - component: {fileID: 693403262}
+  m_Layer: 0
+  m_Name: MapGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &693403261
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 693403260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &693403262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 693403260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c1abfdfa3121444b738d0f88a80bdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomWidth: 16
+  roomHeight: 10
+  grid: {fileID: 418634445}
+  player: {fileID: 89592529}
+  roomCullDistance: {x: 24, y: 16}
+  roomTemplates:
+  - {fileID: 4318964468743984, guid: ffceba91a260a03429220a9ff6da163c, type: 2}
+  - {fileID: 4597585890515484, guid: d3bc4d035cfee24418df4faca05eb67b, type: 2}
+  - {fileID: 4413446210062356, guid: 4fd6e8bce3308c44899a4e041f8bab8a, type: 2}
+  - {fileID: 4159400311943940, guid: a9324eb931d13764bb30a4d3d1bdc7af, type: 2}
+  - {fileID: 4548367663891408, guid: 770f3d45085a2194da322d04de6f8587, type: 2}
+  - {fileID: 4983197122425786, guid: 5492cda6f692c824e9da8d5f0cead7b0, type: 2}
+  - {fileID: 4878859413840830, guid: a7b94d6071f5e514da7dc14c6120c9b9, type: 2}
+--- !u!1001 &804646538
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400063525233696, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114539925048371508, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114539925048371508, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114275581805090328, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114275581805090328, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224087365140739976, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224087365140739976, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114657967923681450, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.5808823
+      objectReference: {fileID: 0}
+    - target: {fileID: 114657967923681450, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.5808823
+      objectReference: {fileID: 0}
+    - target: {fileID: 114657967923681450, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.5808823
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8b59bf2cd8c1c1b4581819e654e48f9f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &804646539 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114275581805090328, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+    type: 2}
+  m_PrefabInternal: {fileID: 804646538}
+  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+--- !u!114 &804646540 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114539925048371508, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+    type: 2}
+  m_PrefabInternal: {fileID: 804646538}
+  m_Script: {fileID: 1453722849, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+--- !u!1 &804646541 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1829219370283596, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+    type: 2}
+  m_PrefabInternal: {fileID: 804646538}
+--- !u!224 &804646542 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224691506421963338, guid: 8b59bf2cd8c1c1b4581819e654e48f9f,
+    type: 2}
+  m_PrefabInternal: {fileID: 804646538}
+--- !u!1 &898121079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 898121080}
+  - component: {fileID: 898121085}
+  - component: {fileID: 898121084}
+  - component: {fileID: 898121083}
+  - component: {fileID: 898121082}
+  - component: {fileID: 898121081}
+  m_Layer: 13
+  m_Name: Plugs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &898121080
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 898121079}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 418634446}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!66 &898121081
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 898121079}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 1
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 898121083}
+    m_ColliderPaths:
+    - - X: -293383456
+        Y: 242925104
+      - X: -292298208
+        Y: 244426672
+      - X: -292574176
+        Y: 246251696
+      - X: -295000000
+        Y: 246236825
+      - X: -295000000
+        Y: 245000000
+      - X: -302384903
+        Y: 245000000
+      - X: -302564915
+        Y: 246190451
+      - X: -295000000
+        Y: 246236825
+      - X: -295000000
+        Y: 255000000
+      - X: -335000000
+        Y: 255000000
+      - X: -335000000
+        Y: 246175523
+      - X: -337532160
+        Y: 246160000
+      - X: -337499264
+        Y: 244226672
+      - X: -336157504
+        Y: 242933824
+      - X: -329753504
+        Y: 242195168
+      - X: -324737114
+        Y: 242769993
+      - X: -319753472
+        Y: 242195168
+      - X: -314737098
+        Y: 242769991
+      - X: -309753472
+        Y: 242195168
+      - X: -304737098
+        Y: 242769991
+      - X: -299753472
+        Y: 242195168
+    - - X: 186616528
+        Y: 242925104
+      - X: 187701776
+        Y: 244426672
+      - X: 187425824
+        Y: 246251696
+      - X: 185000000
+        Y: 246236825
+      - X: 185000000
+        Y: 245000000
+      - X: 177615086
+        Y: 245000000
+      - X: 177435085
+        Y: 246190450
+      - X: 185000000
+        Y: 246236825
+      - X: 185000000
+        Y: 255000000
+      - X: 145000000
+        Y: 255000000
+      - X: 145000000
+        Y: 246175523
+      - X: 142467824
+        Y: 246160000
+      - X: 142500720
+        Y: 244226672
+      - X: 143842512
+        Y: 242933824
+      - X: 150246512
+        Y: 242195168
+      - X: 155262900
+        Y: 242769993
+      - X: 160246528
+        Y: 242195168
+      - X: 165262902
+        Y: 242769992
+      - X: 170246528
+        Y: 242195168
+      - X: 175262902
+        Y: 242769992
+      - X: 180246528
+        Y: 242195168
+    - - X: 346616512
+        Y: 242925104
+      - X: 347701792
+        Y: 244426672
+      - X: 347425856
+        Y: 246251696
+      - X: 345000000
+        Y: 246236825
+      - X: 345000000
+        Y: 245000000
+      - X: 337615107
+        Y: 245000000
+      - X: 337435116
+        Y: 246190451
+      - X: 345000000
+        Y: 246236825
+      - X: 345000000
+        Y: 255000000
+      - X: 305000000
+        Y: 255000000
+      - X: 305000000
+        Y: 246175523
+      - X: 302467808
+        Y: 246160000
+      - X: 302500736
+        Y: 244226672
+      - X: 303842496
+        Y: 242933824
+      - X: 310246528
+        Y: 242195168
+      - X: 315262899
+        Y: 242769991
+      - X: 320246496
+        Y: 242195168
+      - X: 325262883
+        Y: 242769992
+      - X: 330246496
+        Y: 242195168
+      - X: 335262883
+        Y: 242769992
+      - X: 340246496
+        Y: 242195168
+    - - X: -133383472
+        Y: 242925104
+      - X: -132298224
+        Y: 244426672
+      - X: -132574176
+        Y: 246251696
+      - X: -135000000
+        Y: 246236825
+      - X: -135000000
+        Y: 245000000
+      - X: -142384914
+        Y: 245000000
+      - X: -142564915
+        Y: 246190450
+      - X: -135000000
+        Y: 246236825
+      - X: -135000000
+        Y: 255000000
+      - X: -175000000
+        Y: 255000000
+      - X: -175000000
+        Y: 246175523
+      - X: -177532176
+        Y: 246160000
+      - X: -177499280
+        Y: 244226672
+      - X: -176157488
+        Y: 242933824
+      - X: -169753472
+        Y: 242195168
+      - X: -164737100
+        Y: 242769992
+      - X: -159753488
+        Y: 242195168
+      - X: -154737101
+        Y: 242769992
+      - X: -149753488
+        Y: 242195168
+      - X: -144737101
+        Y: 242769992
+      - X: -139753488
+        Y: 242195168
+    - - X: 26616528
+        Y: 242925104
+      - X: 27701784
+        Y: 244426672
+      - X: 27425824
+        Y: 246251696
+      - X: 25000000
+        Y: 246236825
+      - X: 25000000
+        Y: 245000000
+      - X: 17615092
+        Y: 245000000
+      - X: 17435085
+        Y: 246190450
+      - X: 25000000
+        Y: 246236825
+      - X: 25000000
+        Y: 255000000
+      - X: -15000000
+        Y: 255000000
+      - X: -15000000
+        Y: 246175523
+      - X: -17532174
+        Y: 246160000
+      - X: -17499270
+        Y: 244226672
+      - X: -16157496
+        Y: 242933824
+      - X: -9753482
+        Y: 242195168
+      - X: -4737103
+        Y: 242769992
+      - X: 246517
+        Y: 242195168
+      - X: 5262896
+        Y: 242769992
+      - X: 10246518
+        Y: 242195168
+      - X: 15262897
+        Y: 242769992
+      - X: 20246518
+        Y: 242195168
+    - - X: 17435085
+        Y: 246190450
+      - X: 15000000
+        Y: 246175523
+      - X: 12467825
+        Y: 246160000
+      - X: 12487568
+        Y: 245000000
+      - X: 7615091
+        Y: 245000000
+      - X: 7435084
+        Y: 246190450
+      - X: 15000000
+        Y: 246236825
+      - X: 17425824
+        Y: 246251696
+    - - X: -322564884
+        Y: 246190451
+      - X: -325000000
+        Y: 246175523
+      - X: -327532160
+        Y: 246160000
+      - X: -327512422
+        Y: 245000000
+      - X: -335000000
+        Y: 245000000
+      - X: -335000000
+        Y: 246175523
+      - X: -325000000
+        Y: 246236825
+      - X: -322574144
+        Y: 246251696
+    - - X: -312564915
+        Y: 246190451
+      - X: -315000000
+        Y: 246175523
+      - X: -317532192
+        Y: 246160000
+      - X: -317512435
+        Y: 245000000
+      - X: -322384893
+        Y: 245000000
+      - X: -322564884
+        Y: 246190451
+      - X: -315000000
+        Y: 246236825
+      - X: -312574176
+        Y: 246251696
+    - - X: -302564915
+        Y: 246190451
+      - X: -305000000
+        Y: 246175523
+      - X: -307532192
+        Y: 246160000
+      - X: -307512435
+        Y: 245000000
+      - X: -312384903
+        Y: 245000000
+      - X: -312564915
+        Y: 246190451
+      - X: -305000000
+        Y: 246236825
+      - X: -302574176
+        Y: 246251696
+    - - X: 337435116
+        Y: 246190451
+      - X: 335000000
+        Y: 246175523
+      - X: 332467840
+        Y: 246160000
+      - X: 332487578
+        Y: 245000000
+      - X: 327615107
+        Y: 245000000
+      - X: 327435116
+        Y: 246190451
+      - X: 335000000
+        Y: 246236825
+      - X: 337425856
+        Y: 246251696
+    - - X: -162564915
+        Y: 246190450
+      - X: -165000000
+        Y: 246175523
+      - X: -167532176
+        Y: 246160000
+      - X: -167512438
+        Y: 245000000
+      - X: -175000000
+        Y: 245000000
+      - X: -175000000
+        Y: 246175523
+      - X: -165000000
+        Y: 246236825
+      - X: -162574176
+        Y: 246251696
+    - - X: -152564915
+        Y: 246190450
+      - X: -155000000
+        Y: 246175523
+      - X: -157532176
+        Y: 246160000
+      - X: -157512438
+        Y: 245000000
+      - X: -162384914
+        Y: 245000000
+      - X: -162564915
+        Y: 246190450
+      - X: -155000000
+        Y: 246236825
+      - X: -152574176
+        Y: 246251696
+    - - X: -142564915
+        Y: 246190450
+      - X: -145000000
+        Y: 246175523
+      - X: -147532176
+        Y: 246160000
+      - X: -147512438
+        Y: 245000000
+      - X: -152384914
+        Y: 245000000
+      - X: -152564915
+        Y: 246190450
+      - X: -145000000
+        Y: 246236825
+      - X: -142574176
+        Y: 246251696
+    - - X: 317435085
+        Y: 246190450
+      - X: 315000000
+        Y: 246175523
+      - X: 312467808
+        Y: 246160000
+      - X: 312487565
+        Y: 245000000
+      - X: 305000000
+        Y: 245000000
+      - X: 305000000
+        Y: 246175523
+      - X: 315000000
+        Y: 246236825
+      - X: 317425824
+        Y: 246251696
+    - - X: -2564915
+        Y: 246190450
+      - X: -5000000
+        Y: 246175523
+      - X: -7532175
+        Y: 246160000
+      - X: -7512432
+        Y: 245000000
+      - X: -15000000
+        Y: 245000000
+      - X: -15000000
+        Y: 246175523
+      - X: -5000000
+        Y: 246236825
+      - X: -2574176
+        Y: 246251696
+    - - X: 7435084
+        Y: 246190450
+      - X: 5000000
+        Y: 246175523
+      - X: 2467824
+        Y: 246160000
+      - X: 2487567
+        Y: 245000000
+      - X: -2384908
+        Y: 245000000
+      - X: -2564915
+        Y: 246190450
+      - X: 5000000
+        Y: 246236825
+      - X: 7425823
+        Y: 246251696
+    - - X: 327435116
+        Y: 246190451
+      - X: 325000000
+        Y: 246175523
+      - X: 322467840
+        Y: 246160000
+      - X: 322487578
+        Y: 245000000
+      - X: 317615097
+        Y: 245000000
+      - X: 317435085
+        Y: 246190450
+      - X: 325000000
+        Y: 246236825
+      - X: 327425856
+        Y: 246251696
+    - - X: 157435085
+        Y: 246190450
+      - X: 155000000
+        Y: 246175523
+      - X: 152467824
+        Y: 246160000
+      - X: 152487562
+        Y: 245000000
+      - X: 145000000
+        Y: 245000000
+      - X: 145000000
+        Y: 246175523
+      - X: 155000000
+        Y: 246236825
+      - X: 157425824
+        Y: 246251696
+    - - X: 167435085
+        Y: 246190450
+      - X: 165000000
+        Y: 246175523
+      - X: 162467824
+        Y: 246160000
+      - X: 162487562
+        Y: 245000000
+      - X: 157615086
+        Y: 245000000
+      - X: 157435085
+        Y: 246190450
+      - X: 165000000
+        Y: 246236825
+      - X: 167425824
+        Y: 246251696
+    - - X: 177435085
+        Y: 246190450
+      - X: 175000000
+        Y: 246175523
+      - X: 172467824
+        Y: 246160000
+      - X: 172487562
+        Y: 245000000
+      - X: 167615086
+        Y: 245000000
+      - X: 167435085
+        Y: 246190450
+      - X: 175000000
+        Y: 246236825
+      - X: 177425824
+        Y: 246251696
+    - - X: -385000000
+        Y: 212487562
+      - X: -385000000
+        Y: 207615085
+      - X: -386190456
+        Y: 207435086
+      - X: -386175526
+        Y: 205000000
+      - X: -386160000
+        Y: 202467824
+      - X: -385000000
+        Y: 202487562
+      - X: -385000000
+        Y: 197615085
+      - X: -386190456
+        Y: 197435086
+      - X: -386175526
+        Y: 195000000
+      - X: -386160000
+        Y: 192467824
+      - X: -385000000
+        Y: 192487562
+      - X: -385000000
+        Y: 185000000
+      - X: -386175526
+        Y: 185000000
+      - X: -386236839
+        Y: 195000000
+      - X: -395000000
+        Y: 195000000
+      - X: -395000000
+        Y: 185000000
+      - X: -386175526
+        Y: 185000000
+      - X: -386160000
+        Y: 182467824
+      - X: -384226688
+        Y: 182500720
+      - X: -382933792
+        Y: 183842512
+      - X: -382195168
+        Y: 190246528
+      - X: -382769986
+        Y: 195262739
+      - X: -382195168
+        Y: 200246528
+      - X: -382769986
+        Y: 205262739
+      - X: -382195168
+        Y: 210246528
+      - X: -382769986
+        Y: 215262739
+      - X: -382195168
+        Y: 220246528
+      - X: -382925120
+        Y: 226616528
+      - X: -384426656
+        Y: 227701776
+      - X: -386251712
+        Y: 227425824
+      - X: -386236839
+        Y: 225000000
+      - X: -385000000
+        Y: 225000000
+      - X: -385000000
+        Y: 217615085
+      - X: -386190456
+        Y: 217435086
+      - X: -386175526
+        Y: 215000000
+      - X: -386160000
+        Y: 212467824
+    - - X: 396160000
+        Y: 217532176
+      - X: 395000000
+        Y: 217512438
+      - X: 395000000
+        Y: 225000000
+      - X: 396175526
+        Y: 225000000
+      - X: 396236839
+        Y: 215000000
+      - X: 396175526
+        Y: 215000000
+    - - X: -385000000
+        Y: 112487571
+      - X: -385000000
+        Y: 107615085
+      - X: -386190456
+        Y: 107435086
+      - X: -386175526
+        Y: 105000000
+      - X: -386160000
+        Y: 102467824
+      - X: -385000000
+        Y: 102487571
+      - X: -385000000
+        Y: 97615085
+      - X: -386190456
+        Y: 97435086
+      - X: -386175526
+        Y: 95000000
+      - X: -386160000
+        Y: 92467824
+      - X: -385000000
+        Y: 92487571
+      - X: -385000000
+        Y: 85000000
+      - X: -386175526
+        Y: 85000000
+      - X: -386236839
+        Y: 95000000
+      - X: -395000000
+        Y: 95000000
+      - X: -395000000
+        Y: 85000000
+      - X: -386175526
+        Y: 85000000
+      - X: -386160000
+        Y: 82467824
+      - X: -384226688
+        Y: 82500736
+      - X: -382933792
+        Y: 83842504
+      - X: -382195168
+        Y: 90246512
+      - X: -382769986
+        Y: 95262732
+      - X: -382195168
+        Y: 100246512
+      - X: -382769986
+        Y: 105262732
+      - X: -382195168
+        Y: 110246512
+      - X: -382769986
+        Y: 115262732
+      - X: -382195168
+        Y: 120246512
+      - X: -382925120
+        Y: 126616528
+      - X: -384426656
+        Y: 127701776
+      - X: -386251712
+        Y: 127425824
+      - X: -386236839
+        Y: 125000000
+      - X: -385000000
+        Y: 125000000
+      - X: -385000000
+        Y: 117615085
+      - X: -386190456
+        Y: 117435086
+      - X: -386175526
+        Y: 115000000
+      - X: -386160000
+        Y: 112467824
+    - - X: 396160000
+        Y: 117532176
+      - X: 395000000
+        Y: 117512429
+      - X: 395000000
+        Y: 125000000
+      - X: 396175526
+        Y: 125000000
+      - X: 396236839
+        Y: 115000000
+      - X: 396175526
+        Y: 115000000
+    - - X: -385000000
+        Y: 12487568
+      - X: -385000000
+        Y: 7615089
+      - X: -386190456
+        Y: 7435085
+      - X: -386175526
+        Y: 5000000
+      - X: -386160000
+        Y: 2467826
+      - X: -385000000
+        Y: 2487569
+      - X: -385000000
+        Y: -2384910
+      - X: -386190456
+        Y: -2564914
+      - X: -386175526
+        Y: -5000000
+      - X: -386160000
+        Y: -7532174
+      - X: -385000000
+        Y: -7512431
+      - X: -385000000
+        Y: -15000000
+      - X: -386175526
+        Y: -15000000
+      - X: -386236839
+        Y: -5000000
+      - X: -395000000
+        Y: -5000000
+      - X: -395000000
+        Y: -15000000
+      - X: -386175526
+        Y: -15000000
+      - X: -386160000
+        Y: -17532174
+      - X: -384226688
+        Y: -17499270
+      - X: -382933792
+        Y: -16157495
+      - X: -382195168
+        Y: -9753482
+      - X: -382769986
+        Y: -4737266
+      - X: -382195168
+        Y: 246518
+      - X: -382769986
+        Y: 5262734
+      - X: -382195168
+        Y: 10246518
+      - X: -382769986
+        Y: 15262734
+      - X: -382195168
+        Y: 20246518
+      - X: -382925120
+        Y: 26616526
+      - X: -384426656
+        Y: 27701784
+      - X: -386251712
+        Y: 27425824
+      - X: -386236839
+        Y: 25000000
+      - X: -385000000
+        Y: 25000000
+      - X: -385000000
+        Y: 17615091
+      - X: -386190456
+        Y: 17435086
+      - X: -386175526
+        Y: 15000000
+      - X: -386160000
+        Y: 12467825
+    - - X: 396160000
+        Y: 17532174
+      - X: 395000000
+        Y: 17512431
+      - X: 395000000
+        Y: 25000000
+      - X: 396175526
+        Y: 25000000
+      - X: 396236839
+        Y: 15000000
+      - X: 396175526
+        Y: 15000000
+    - - X: -385000000
+        Y: -87512429
+      - X: -385000000
+        Y: -92384915
+      - X: -386190456
+        Y: -92564914
+      - X: -386175526
+        Y: -95000000
+      - X: -386160000
+        Y: -97532176
+      - X: -385000000
+        Y: -97512429
+      - X: -385000000
+        Y: -102384915
+      - X: -386190456
+        Y: -102564914
+      - X: -386175526
+        Y: -105000000
+      - X: -386160000
+        Y: -107532176
+      - X: -385000000
+        Y: -107512429
+      - X: -385000000
+        Y: -115000000
+      - X: -386175526
+        Y: -115000000
+      - X: -386236839
+        Y: -105000000
+      - X: -395000000
+        Y: -105000000
+      - X: -395000000
+        Y: -115000000
+      - X: -386175526
+        Y: -115000000
+      - X: -386160000
+        Y: -117532176
+      - X: -384226688
+        Y: -117499264
+      - X: -382933792
+        Y: -116157496
+      - X: -382195168
+        Y: -109753488
+      - X: -382769986
+        Y: -104737268
+      - X: -382195168
+        Y: -99753488
+      - X: -382769986
+        Y: -94737268
+      - X: -382195168
+        Y: -89753488
+      - X: -382769986
+        Y: -84737267
+      - X: -382195168
+        Y: -79753480
+      - X: -382925120
+        Y: -73383472
+      - X: -384426656
+        Y: -72298216
+      - X: -386251712
+        Y: -72574176
+      - X: -386236839
+        Y: -75000000
+      - X: -385000000
+        Y: -75000000
+      - X: -385000000
+        Y: -82384915
+      - X: -386190456
+        Y: -82564914
+      - X: -386175526
+        Y: -85000000
+      - X: -386160000
+        Y: -87532176
+    - - X: 396160000
+        Y: -82467824
+      - X: 395000000
+        Y: -82487571
+      - X: 395000000
+        Y: -75000000
+      - X: 396175526
+        Y: -75000000
+      - X: 396236839
+        Y: -85000000
+      - X: 396175526
+        Y: -85000000
+    - - X: -385000000
+        Y: -187512438
+      - X: -385000000
+        Y: -192384915
+      - X: -386190456
+        Y: -192564914
+      - X: -386175526
+        Y: -195000000
+      - X: -386160000
+        Y: -197532176
+      - X: -385000000
+        Y: -197512438
+      - X: -385000000
+        Y: -202384915
+      - X: -386190456
+        Y: -202564914
+      - X: -386175526
+        Y: -205000000
+      - X: -386160000
+        Y: -207532176
+      - X: -385000000
+        Y: -207512438
+      - X: -385000000
+        Y: -215000000
+      - X: -386175526
+        Y: -215000000
+      - X: -386236839
+        Y: -205000000
+      - X: -395000000
+        Y: -205000000
+      - X: -395000000
+        Y: -215000000
+      - X: -386175526
+        Y: -215000000
+      - X: -386160000
+        Y: -217532176
+      - X: -384226688
+        Y: -217499280
+      - X: -382933792
+        Y: -216157488
+      - X: -382195168
+        Y: -209753472
+      - X: -382769986
+        Y: -204737261
+      - X: -382195168
+        Y: -199753472
+      - X: -382769986
+        Y: -194737261
+      - X: -382195168
+        Y: -189753472
+      - X: -382769986
+        Y: -184737261
+      - X: -382195168
+        Y: -179753472
+      - X: -382925120
+        Y: -173383472
+      - X: -384426656
+        Y: -172298224
+      - X: -386251712
+        Y: -172574176
+      - X: -386236839
+        Y: -175000000
+      - X: -385000000
+        Y: -175000000
+      - X: -385000000
+        Y: -182384915
+      - X: -386190456
+        Y: -182564914
+      - X: -386175526
+        Y: -185000000
+      - X: -386160000
+        Y: -187532176
+    - - X: 396160000
+        Y: -182467824
+      - X: 395000000
+        Y: -182487562
+      - X: 395000000
+        Y: -175000000
+      - X: 396175526
+        Y: -175000000
+      - X: 396236839
+        Y: -185000000
+      - X: 396175526
+        Y: -185000000
+    - - X: -385000000
+        Y: -287512435
+      - X: -385000000
+        Y: -292384904
+      - X: -386190456
+        Y: -292564913
+      - X: -386175526
+        Y: -295000000
+      - X: -386160000
+        Y: -297532192
+      - X: -385000000
+        Y: -297512435
+      - X: -385000000
+        Y: -302384904
+      - X: -386190456
+        Y: -302564913
+      - X: -386175526
+        Y: -305000000
+      - X: -386160000
+        Y: -307532192
+      - X: -385000000
+        Y: -307512435
+      - X: -385000000
+        Y: -315000000
+      - X: -386175526
+        Y: -315000000
+      - X: -386236839
+        Y: -305000000
+      - X: -395000000
+        Y: -305000000
+      - X: -395000000
+        Y: -315000000
+      - X: -386175526
+        Y: -315000000
+      - X: -386160000
+        Y: -317532192
+      - X: -384226688
+        Y: -317499264
+      - X: -382933792
+        Y: -316157504
+      - X: -382195168
+        Y: -309753472
+      - X: -382769985
+        Y: -304737261
+      - X: -382195168
+        Y: -299753472
+      - X: -382769985
+        Y: -294737261
+      - X: -382195168
+        Y: -289753472
+      - X: -382769985
+        Y: -284737261
+      - X: -382195168
+        Y: -279753472
+      - X: -382925120
+        Y: -273383456
+      - X: -384426656
+        Y: -272298208
+      - X: -386251712
+        Y: -272574176
+      - X: -386236839
+        Y: -275000000
+      - X: -385000000
+        Y: -275000000
+      - X: -385000000
+        Y: -282384904
+      - X: -386190456
+        Y: -282564913
+      - X: -386175526
+        Y: -285000000
+      - X: -386160000
+        Y: -287532192
+    - - X: 396160000
+        Y: -282467808
+      - X: 395000000
+        Y: -282487565
+      - X: 395000000
+        Y: -275000000
+      - X: 396175526
+        Y: -275000000
+      - X: 396236839
+        Y: -285000000
+      - X: 396175526
+        Y: -285000000
+    - - X: -295000000
+        Y: -336175526
+      - X: -292467808
+        Y: -336160000
+      - X: -292500736
+        Y: -334226688
+      - X: -293842496
+        Y: -332933792
+      - X: -300246528
+        Y: -332195168
+      - X: -305262739
+        Y: -332769985
+      - X: -310246528
+        Y: -332195168
+      - X: -315262735
+        Y: -332769985
+      - X: -320246496
+        Y: -332195168
+      - X: -325262719
+        Y: -332769986
+      - X: -330246496
+        Y: -332195168
+      - X: -336616512
+        Y: -332925120
+      - X: -337701792
+        Y: -334426656
+      - X: -337425792
+        Y: -336251712
+      - X: -335000000
+        Y: -336236839
+      - X: -335000000
+        Y: -335000000
+      - X: -327615086
+        Y: -335000000
+      - X: -327435056
+        Y: -336190456
+      - X: -335000000
+        Y: -336236839
+      - X: -335000000
+        Y: -345000000
+      - X: -295000000
+        Y: -345000000
+    - - X: -135000000
+        Y: -336175526
+      - X: -132467824
+        Y: -336160000
+      - X: -132500728
+        Y: -334226688
+      - X: -133842504
+        Y: -332933792
+      - X: -140246512
+        Y: -332195168
+      - X: -145262735
+        Y: -332769986
+      - X: -150246512
+        Y: -332195168
+      - X: -155262737
+        Y: -332769987
+      - X: -160246528
+        Y: -332195168
+      - X: -165262739
+        Y: -332769986
+      - X: -170246528
+        Y: -332195168
+      - X: -176616528
+        Y: -332925120
+      - X: -177701776
+        Y: -334426656
+      - X: -177425824
+        Y: -336251712
+      - X: -175000000
+        Y: -336236839
+      - X: -175000000
+        Y: -335000000
+      - X: -167615085
+        Y: -335000000
+      - X: -167435086
+        Y: -336190456
+      - X: -175000000
+        Y: -336236839
+      - X: -175000000
+        Y: -345000000
+      - X: -135000000
+        Y: -345000000
+    - - X: 345000000
+        Y: -336175525
+      - X: 347532160
+        Y: -336160000
+      - X: 347499264
+        Y: -334226688
+      - X: 346157504
+        Y: -332933792
+      - X: 339753504
+        Y: -332195168
+      - X: 334737281
+        Y: -332769986
+      - X: 329753504
+        Y: -332195168
+      - X: 324737277
+        Y: -332769987
+      - X: 319753472
+        Y: -332195168
+      - X: 314737261
+        Y: -332769985
+      - X: 309753472
+        Y: -332195168
+      - X: 303383456
+        Y: -332925120
+      - X: 302298208
+        Y: -334426656
+      - X: 302574176
+        Y: -336251712
+      - X: 305000000
+        Y: -336236839
+      - X: 305000000
+        Y: -335000000
+      - X: 312384904
+        Y: -335000000
+      - X: 312564913
+        Y: -336190456
+      - X: 305000000
+        Y: -336236839
+      - X: 305000000
+        Y: -345000000
+      - X: 345000000
+        Y: -345000000
+    - - X: 185000000
+        Y: -336175526
+      - X: 187532176
+        Y: -336160000
+      - X: 187499280
+        Y: -334226688
+      - X: 186157488
+        Y: -332933792
+      - X: 179753472
+        Y: -332195168
+      - X: 174737261
+        Y: -332769986
+      - X: 169753472
+        Y: -332195168
+      - X: 164737263
+        Y: -332769986
+      - X: 159753488
+        Y: -332195168
+      - X: 154737265
+        Y: -332769986
+      - X: 149753488
+        Y: -332195168
+      - X: 143383472
+        Y: -332925120
+      - X: 142298224
+        Y: -334426656
+      - X: 142574176
+        Y: -336251712
+      - X: 145000000
+        Y: -336236839
+      - X: 145000000
+        Y: -335000000
+      - X: 152384915
+        Y: -335000000
+      - X: 152564914
+        Y: -336190456
+      - X: 145000000
+        Y: -336236839
+      - X: 145000000
+        Y: -345000000
+      - X: 185000000
+        Y: -345000000
+    - - X: 25000000
+        Y: -336175526
+      - X: 27532176
+        Y: -336160000
+      - X: 27499270
+        Y: -334226688
+      - X: 26157496
+        Y: -332933792
+      - X: 19753482
+        Y: -332195168
+      - X: 14737266
+        Y: -332769986
+      - X: 9753482
+        Y: -332195168
+      - X: 4737266
+        Y: -332769986
+      - X: -246517
+        Y: -332195168
+      - X: -5262733
+        Y: -332769986
+      - X: -10246518
+        Y: -332195168
+      - X: -16616528
+        Y: -332925120
+      - X: -17701784
+        Y: -334426656
+      - X: -17425824
+        Y: -336251712
+      - X: -15000000
+        Y: -336236839
+      - X: -15000000
+        Y: -335000000
+      - X: -7615089
+        Y: -335000000
+      - X: -7435084
+        Y: -336190456
+      - X: -15000000
+        Y: -336236839
+      - X: -15000000
+        Y: -345000000
+      - X: 25000000
+        Y: -345000000
+    - - X: 327512422
+        Y: -335000000
+      - X: 332384914
+        Y: -335000000
+      - X: 332564944
+        Y: -336190456
+      - X: 325000000
+        Y: -336236839
+      - X: 322574208
+        Y: -336251712
+      - X: 322564944
+        Y: -336190456
+      - X: 325000000
+        Y: -336175525
+      - X: 327532160
+        Y: -336160000
+    - - X: 337512422
+        Y: -335000000
+      - X: 345000000
+        Y: -335000000
+      - X: 345000000
+        Y: -336175525
+      - X: 335000000
+        Y: -336236839
+      - X: 332574208
+        Y: -336251712
+      - X: 332564944
+        Y: -336190456
+      - X: 335000000
+        Y: -336175525
+      - X: 337532160
+        Y: -336160000
+    - - X: -322487578
+        Y: -335000000
+      - X: -317615096
+        Y: -335000000
+      - X: -317435087
+        Y: -336190456
+      - X: -325000000
+        Y: -336236839
+      - X: -327425792
+        Y: -336251712
+      - X: -327435056
+        Y: -336190456
+      - X: -325000000
+        Y: -336175525
+      - X: -322467840
+        Y: -336160000
+    - - X: -302487565
+        Y: -335000000
+      - X: -295000000
+        Y: -335000000
+      - X: -295000000
+        Y: -336175526
+      - X: -305000000
+        Y: -336236839
+      - X: -307425824
+        Y: -336251712
+      - X: -307435087
+        Y: -336190456
+      - X: -305000000
+        Y: -336175526
+      - X: -302467808
+        Y: -336160000
+    - - X: -162487562
+        Y: -335000000
+      - X: -157615085
+        Y: -335000000
+      - X: -157435086
+        Y: -336190456
+      - X: -165000000
+        Y: -336236839
+      - X: -167425824
+        Y: -336251712
+      - X: -167435086
+        Y: -336190456
+      - X: -165000000
+        Y: -336175526
+      - X: -162467824
+        Y: -336160000
+    - - X: -152487562
+        Y: -335000000
+      - X: -147615085
+        Y: -335000000
+      - X: -147435086
+        Y: -336190456
+      - X: -155000000
+        Y: -336236839
+      - X: -157425824
+        Y: -336251712
+      - X: -157435086
+        Y: -336190456
+      - X: -155000000
+        Y: -336175526
+      - X: -152467824
+        Y: -336160000
+    - - X: -2487567
+        Y: -335000000
+      - X: 2384910
+        Y: -335000000
+      - X: 2564915
+        Y: -336190456
+      - X: -5000000
+        Y: -336236839
+      - X: -7425822
+        Y: -336251712
+      - X: -7435084
+        Y: -336190456
+      - X: -5000000
+        Y: -336175526
+      - X: -2467824
+        Y: -336160000
+    - - X: 7512433
+        Y: -335000000
+      - X: 12384910
+        Y: -335000000
+      - X: 12564915
+        Y: -336190456
+      - X: 5000000
+        Y: -336236839
+      - X: 2574177
+        Y: -336251712
+      - X: 2564915
+        Y: -336190456
+      - X: 5000000
+        Y: -336175526
+      - X: 7532176
+        Y: -336160000
+    - - X: 157512438
+        Y: -335000000
+      - X: 162384915
+        Y: -335000000
+      - X: 162564914
+        Y: -336190456
+      - X: 155000000
+        Y: -336236839
+      - X: 152574176
+        Y: -336251712
+      - X: 152564914
+        Y: -336190456
+      - X: 155000000
+        Y: -336175526
+      - X: 157532176
+        Y: -336160000
+    - - X: 317512435
+        Y: -335000000
+      - X: 322384914
+        Y: -335000000
+      - X: 322564944
+        Y: -336190456
+      - X: 315000000
+        Y: -336236839
+      - X: 312574176
+        Y: -336251712
+      - X: 312564913
+        Y: -336190456
+      - X: 315000000
+        Y: -336175526
+      - X: 317532192
+        Y: -336160000
+    - - X: 17512432
+        Y: -335000000
+      - X: 25000000
+        Y: -335000000
+      - X: 25000000
+        Y: -336175526
+      - X: 15000000
+        Y: -336236839
+      - X: 12574177
+        Y: -336251712
+      - X: 12564915
+        Y: -336190456
+      - X: 15000000
+        Y: -336175526
+      - X: 17532176
+        Y: -336160000
+    - - X: 167512438
+        Y: -335000000
+      - X: 172384915
+        Y: -335000000
+      - X: 172564914
+        Y: -336190456
+      - X: 165000000
+        Y: -336236839
+      - X: 162574176
+        Y: -336251712
+      - X: 162564914
+        Y: -336190456
+      - X: 165000000
+        Y: -336175526
+      - X: 167532176
+        Y: -336160000
+    - - X: 177512438
+        Y: -335000000
+      - X: 185000000
+        Y: -335000000
+      - X: 185000000
+        Y: -336175526
+      - X: 175000000
+        Y: -336236839
+      - X: 172574176
+        Y: -336251712
+      - X: 172564914
+        Y: -336190456
+      - X: 175000000
+        Y: -336175526
+      - X: 177532176
+        Y: -336160000
+    - - X: -312487565
+        Y: -335000000
+      - X: -307615096
+        Y: -335000000
+      - X: -307435087
+        Y: -336190456
+      - X: -315000000
+        Y: -336236839
+      - X: -317425824
+        Y: -336251712
+      - X: -317435087
+        Y: -336190456
+      - X: -315000000
+        Y: -336175526
+      - X: -312467808
+        Y: -336160000
+    - - X: -142487562
+        Y: -335000000
+      - X: -135000000
+        Y: -335000000
+      - X: -135000000
+        Y: -336175526
+      - X: -145000000
+        Y: -336236839
+      - X: -147425824
+        Y: -336251712
+      - X: -147435086
+        Y: -336190456
+      - X: -145000000
+        Y: -336175526
+      - X: -142467824
+        Y: -336160000
+    - - X: 396160000
+        Y: 207532176
+      - X: 395000000
+        Y: 207512438
+      - X: 395000000
+        Y: 212384915
+      - X: 396190456
+        Y: 212564914
+      - X: 396175526
+        Y: 215000000
+      - X: 396236839
+        Y: 215000000
+      - X: 396251712
+        Y: 212574176
+      - X: 396190456
+        Y: 212564914
+      - X: 396236839
+        Y: 205000000
+      - X: 396175526
+        Y: 205000000
+    - - X: -386251712
+        Y: 217425824
+      - X: -386190456
+        Y: 217435086
+      - X: -386236839
+        Y: 225000000
+      - X: -395000000
+        Y: 225000000
+      - X: -395000000
+        Y: 215000000
+      - X: -386236839
+        Y: 215000000
+    - - X: 396160000
+        Y: 197532176
+      - X: 395000000
+        Y: 197512438
+      - X: 395000000
+        Y: 202384915
+      - X: 396190456
+        Y: 202564914
+      - X: 396175526
+        Y: 205000000
+      - X: 396236839
+        Y: 205000000
+      - X: 396251712
+        Y: 202574176
+      - X: 396190456
+        Y: 202564914
+      - X: 396236839
+        Y: 195000000
+      - X: 396175526
+        Y: 195000000
+    - - X: -386251712
+        Y: 207425824
+      - X: -386190456
+        Y: 207435086
+      - X: -386236839
+        Y: 215000000
+      - X: -395000000
+        Y: 215000000
+      - X: -395000000
+        Y: 205000000
+      - X: -386236839
+        Y: 205000000
+    - - X: 396175526
+        Y: 225000000
+      - X: 396160000
+        Y: 227532176
+      - X: 394226688
+        Y: 227499280
+      - X: 392933792
+        Y: 226157488
+      - X: 392195168
+        Y: 219753472
+      - X: 392769986
+        Y: 214737261
+      - X: 392195168
+        Y: 209753472
+      - X: 392769986
+        Y: 204737261
+      - X: 392195168
+        Y: 199753472
+      - X: 392769986
+        Y: 194737261
+      - X: 392195168
+        Y: 189753472
+      - X: 392925120
+        Y: 183383472
+      - X: 394426656
+        Y: 182298224
+      - X: 396251712
+        Y: 182574176
+      - X: 396236839
+        Y: 185000000
+      - X: 395000000
+        Y: 185000000
+      - X: 395000000
+        Y: 192384915
+      - X: 396190456
+        Y: 192564914
+      - X: 396175526
+        Y: 195000000
+      - X: 396236839
+        Y: 195000000
+      - X: 396251712
+        Y: 192574176
+      - X: 396190456
+        Y: 192564914
+      - X: 396236839
+        Y: 185000000
+      - X: 405000000
+        Y: 185000000
+      - X: 405000000
+        Y: 225000000
+    - - X: -386251712
+        Y: 197425824
+      - X: -386190456
+        Y: 197435086
+      - X: -386236839
+        Y: 205000000
+      - X: -395000000
+        Y: 205000000
+      - X: -395000000
+        Y: 195000000
+      - X: -386236839
+        Y: 195000000
+    - - X: 396160000
+        Y: 107532176
+      - X: 395000000
+        Y: 107512429
+      - X: 395000000
+        Y: 112384915
+      - X: 396190456
+        Y: 112564914
+      - X: 396175526
+        Y: 115000000
+      - X: 396236839
+        Y: 115000000
+      - X: 396251712
+        Y: 112574176
+      - X: 396190456
+        Y: 112564914
+      - X: 396236839
+        Y: 105000000
+      - X: 396175526
+        Y: 105000000
+    - - X: -386251712
+        Y: 117425824
+      - X: -386190456
+        Y: 117435086
+      - X: -386236839
+        Y: 125000000
+      - X: -395000000
+        Y: 125000000
+      - X: -395000000
+        Y: 115000000
+      - X: -386236839
+        Y: 115000000
+    - - X: 396160000
+        Y: 97532176
+      - X: 395000000
+        Y: 97512429
+      - X: 395000000
+        Y: 102384915
+      - X: 396190456
+        Y: 102564914
+      - X: 396175526
+        Y: 105000000
+      - X: 396236839
+        Y: 105000000
+      - X: 396251712
+        Y: 102574176
+      - X: 396190456
+        Y: 102564914
+      - X: 396236839
+        Y: 95000000
+      - X: 396175526
+        Y: 95000000
+    - - X: -386251712
+        Y: 107425824
+      - X: -386190456
+        Y: 107435086
+      - X: -386236839
+        Y: 115000000
+      - X: -395000000
+        Y: 115000000
+      - X: -395000000
+        Y: 105000000
+      - X: -386236839
+        Y: 105000000
+    - - X: 396175526
+        Y: 125000000
+      - X: 396160000
+        Y: 127532176
+      - X: 394226688
+        Y: 127499264
+      - X: 392933792
+        Y: 126157496
+      - X: 392195168
+        Y: 119753488
+      - X: 392769986
+        Y: 114737268
+      - X: 392195168
+        Y: 109753488
+      - X: 392769986
+        Y: 104737268
+      - X: 392195168
+        Y: 99753488
+      - X: 392769986
+        Y: 94737268
+      - X: 392195168
+        Y: 89753488
+      - X: 392925120
+        Y: 83383472
+      - X: 394426656
+        Y: 82298224
+      - X: 396251712
+        Y: 82574176
+      - X: 396236839
+        Y: 85000000
+      - X: 395000000
+        Y: 85000000
+      - X: 395000000
+        Y: 92384915
+      - X: 396190456
+        Y: 92564914
+      - X: 396175526
+        Y: 95000000
+      - X: 396236839
+        Y: 95000000
+      - X: 396251712
+        Y: 92574176
+      - X: 396190456
+        Y: 92564914
+      - X: 396236839
+        Y: 85000000
+      - X: 405000000
+        Y: 85000000
+      - X: 405000000
+        Y: 125000000
+    - - X: -386251712
+        Y: 97425824
+      - X: -386190456
+        Y: 97435086
+      - X: -386236839
+        Y: 105000000
+      - X: -395000000
+        Y: 105000000
+      - X: -395000000
+        Y: 95000000
+      - X: -386236839
+        Y: 95000000
+    - - X: 396160000
+        Y: 7532175
+      - X: 395000000
+        Y: 7512432
+      - X: 395000000
+        Y: 12384911
+      - X: 396190456
+        Y: 12564916
+      - X: 396175526
+        Y: 15000000
+      - X: 396236839
+        Y: 15000000
+      - X: 396251712
+        Y: 12574178
+      - X: 396190456
+        Y: 12564916
+      - X: 396236839
+        Y: 5000000
+      - X: 396175526
+        Y: 5000000
+    - - X: -386251712
+        Y: 17425824
+      - X: -386190456
+        Y: 17435086
+      - X: -386236839
+        Y: 25000000
+      - X: -395000000
+        Y: 25000000
+      - X: -395000000
+        Y: 15000000
+      - X: -386236839
+        Y: 15000000
+    - - X: 396160000
+        Y: -2467824
+      - X: 395000000
+        Y: -2487568
+      - X: 395000000
+        Y: 2384911
+      - X: 396190456
+        Y: 2564916
+      - X: 396175526
+        Y: 5000000
+      - X: 396236839
+        Y: 5000000
+      - X: 396251712
+        Y: 2574178
+      - X: 396190456
+        Y: 2564916
+      - X: 396236839
+        Y: -5000000
+      - X: 396175526
+        Y: -5000000
+    - - X: -386251712
+        Y: 7425823
+      - X: -386190456
+        Y: 7435085
+      - X: -386236839
+        Y: 15000000
+      - X: -395000000
+        Y: 15000000
+      - X: -395000000
+        Y: 5000000
+      - X: -386236839
+        Y: 5000000
+    - - X: 396175526
+        Y: 25000000
+      - X: 396160000
+        Y: 27532174
+      - X: 394226688
+        Y: 27499270
+      - X: 392933792
+        Y: 26157494
+      - X: 392195168
+        Y: 19753482
+      - X: 392769986
+        Y: 14737266
+      - X: 392195168
+        Y: 9753482
+      - X: 392769986
+        Y: 4737266
+      - X: 392195168
+        Y: -246517
+      - X: 392769986
+        Y: -5262734
+      - X: 392195168
+        Y: -10246518
+      - X: 392925120
+        Y: -16616527
+      - X: 394426656
+        Y: -17701784
+      - X: 396251712
+        Y: -17425822
+      - X: 396236839
+        Y: -15000000
+      - X: 395000000
+        Y: -15000000
+      - X: 395000000
+        Y: -7615089
+      - X: 396190456
+        Y: -7435084
+      - X: 396175526
+        Y: -5000000
+      - X: 396236839
+        Y: -5000000
+      - X: 396251712
+        Y: -7425822
+      - X: 396190456
+        Y: -7435084
+      - X: 396236839
+        Y: -15000000
+      - X: 405000000
+        Y: -15000000
+      - X: 405000000
+        Y: 25000000
+    - - X: -386251712
+        Y: -2574176
+      - X: -386190456
+        Y: -2564914
+      - X: -386236839
+        Y: 5000000
+      - X: -395000000
+        Y: 5000000
+      - X: -395000000
+        Y: -5000000
+      - X: -386236839
+        Y: -5000000
+    - - X: 396160000
+        Y: -92467824
+      - X: 395000000
+        Y: -92487571
+      - X: 395000000
+        Y: -87615085
+      - X: 396190456
+        Y: -87435086
+      - X: 396175526
+        Y: -85000000
+      - X: 396236839
+        Y: -85000000
+      - X: 396251712
+        Y: -87425824
+      - X: 396190456
+        Y: -87435086
+      - X: 396236839
+        Y: -95000000
+      - X: 396175526
+        Y: -95000000
+    - - X: -386251712
+        Y: -82574176
+      - X: -386190456
+        Y: -82564914
+      - X: -386236839
+        Y: -75000000
+      - X: -395000000
+        Y: -75000000
+      - X: -395000000
+        Y: -85000000
+      - X: -386236839
+        Y: -85000000
+    - - X: 396160000
+        Y: -102467824
+      - X: 395000000
+        Y: -102487571
+      - X: 395000000
+        Y: -97615085
+      - X: 396190456
+        Y: -97435086
+      - X: 396175526
+        Y: -95000000
+      - X: 396236839
+        Y: -95000000
+      - X: 396251712
+        Y: -97425824
+      - X: 396190456
+        Y: -97435086
+      - X: 396236839
+        Y: -105000000
+      - X: 396175526
+        Y: -105000000
+    - - X: -386251712
+        Y: -92574176
+      - X: -386190456
+        Y: -92564914
+      - X: -386236839
+        Y: -85000000
+      - X: -395000000
+        Y: -85000000
+      - X: -395000000
+        Y: -95000000
+      - X: -386236839
+        Y: -95000000
+    - - X: 396175526
+        Y: -75000000
+      - X: 396160000
+        Y: -72467824
+      - X: 394226688
+        Y: -72500728
+      - X: 392933792
+        Y: -73842504
+      - X: 392195168
+        Y: -80246512
+      - X: 392769986
+        Y: -85262732
+      - X: 392195168
+        Y: -90246512
+      - X: 392769986
+        Y: -95262732
+      - X: 392195168
+        Y: -100246512
+      - X: 392769986
+        Y: -105262732
+      - X: 392195168
+        Y: -110246512
+      - X: 392925120
+        Y: -116616528
+      - X: 394426656
+        Y: -117701776
+      - X: 396251712
+        Y: -117425824
+      - X: 396236839
+        Y: -115000000
+      - X: 395000000
+        Y: -115000000
+      - X: 395000000
+        Y: -107615085
+      - X: 396190456
+        Y: -107435086
+      - X: 396175526
+        Y: -105000000
+      - X: 396236839
+        Y: -105000000
+      - X: 396251712
+        Y: -107425824
+      - X: 396190456
+        Y: -107435086
+      - X: 396236839
+        Y: -115000000
+      - X: 405000000
+        Y: -115000000
+      - X: 405000000
+        Y: -75000000
+    - - X: -386251712
+        Y: -102574176
+      - X: -386190456
+        Y: -102564914
+      - X: -386236839
+        Y: -95000000
+      - X: -395000000
+        Y: -95000000
+      - X: -395000000
+        Y: -105000000
+      - X: -386236839
+        Y: -105000000
+    - - X: 396160000
+        Y: -192467824
+      - X: 395000000
+        Y: -192487562
+      - X: 395000000
+        Y: -187615085
+      - X: 396190456
+        Y: -187435086
+      - X: 396175526
+        Y: -185000000
+      - X: 396236839
+        Y: -185000000
+      - X: 396251712
+        Y: -187425824
+      - X: 396190456
+        Y: -187435086
+      - X: 396236839
+        Y: -195000000
+      - X: 396175526
+        Y: -195000000
+    - - X: -386251712
+        Y: -182574176
+      - X: -386190456
+        Y: -182564914
+      - X: -386236839
+        Y: -175000000
+      - X: -395000000
+        Y: -175000000
+      - X: -395000000
+        Y: -185000000
+      - X: -386236839
+        Y: -185000000
+    - - X: 396160000
+        Y: -202467824
+      - X: 395000000
+        Y: -202487562
+      - X: 395000000
+        Y: -197615085
+      - X: 396190456
+        Y: -197435086
+      - X: 396175526
+        Y: -195000000
+      - X: 396236839
+        Y: -195000000
+      - X: 396251712
+        Y: -197425824
+      - X: 396190456
+        Y: -197435086
+      - X: 396236839
+        Y: -205000000
+      - X: 396175526
+        Y: -205000000
+    - - X: -386251712
+        Y: -192574176
+      - X: -386190456
+        Y: -192564914
+      - X: -386236839
+        Y: -185000000
+      - X: -395000000
+        Y: -185000000
+      - X: -395000000
+        Y: -195000000
+      - X: -386236839
+        Y: -195000000
+    - - X: 396175526
+        Y: -175000000
+      - X: 396160000
+        Y: -172467824
+      - X: 394226688
+        Y: -172500720
+      - X: 392933792
+        Y: -173842512
+      - X: 392195168
+        Y: -180246528
+      - X: 392769986
+        Y: -185262739
+      - X: 392195168
+        Y: -190246528
+      - X: 392769986
+        Y: -195262739
+      - X: 392195168
+        Y: -200246528
+      - X: 392769986
+        Y: -205262739
+      - X: 392195168
+        Y: -210246528
+      - X: 392925120
+        Y: -216616528
+      - X: 394426656
+        Y: -217701776
+      - X: 396251712
+        Y: -217425824
+      - X: 396236839
+        Y: -215000000
+      - X: 395000000
+        Y: -215000000
+      - X: 395000000
+        Y: -207615085
+      - X: 396190456
+        Y: -207435086
+      - X: 396175526
+        Y: -205000000
+      - X: 396236839
+        Y: -205000000
+      - X: 396251712
+        Y: -207425824
+      - X: 396190456
+        Y: -207435086
+      - X: 396236839
+        Y: -215000000
+      - X: 405000000
+        Y: -215000000
+      - X: 405000000
+        Y: -175000000
+    - - X: -386251712
+        Y: -202574176
+      - X: -386190456
+        Y: -202564914
+      - X: -386236839
+        Y: -195000000
+      - X: -395000000
+        Y: -195000000
+      - X: -395000000
+        Y: -205000000
+      - X: -386236839
+        Y: -205000000
+    - - X: 396160000
+        Y: -292467808
+      - X: 395000000
+        Y: -292487565
+      - X: 395000000
+        Y: -287615096
+      - X: 396190456
+        Y: -287435087
+      - X: 396175526
+        Y: -285000000
+      - X: 396236839
+        Y: -285000000
+      - X: 396251712
+        Y: -287425824
+      - X: 396190456
+        Y: -287435087
+      - X: 396236839
+        Y: -295000000
+      - X: 396175526
+        Y: -295000000
+    - - X: -386251712
+        Y: -282574176
+      - X: -386190456
+        Y: -282564913
+      - X: -386236839
+        Y: -275000000
+      - X: -395000000
+        Y: -275000000
+      - X: -395000000
+        Y: -285000000
+      - X: -386236839
+        Y: -285000000
+    - - X: 396160000
+        Y: -302467808
+      - X: 395000000
+        Y: -302487565
+      - X: 395000000
+        Y: -297615096
+      - X: 396190456
+        Y: -297435087
+      - X: 396175526
+        Y: -295000000
+      - X: 396236839
+        Y: -295000000
+      - X: 396251712
+        Y: -297425824
+      - X: 396190456
+        Y: -297435087
+      - X: 396236839
+        Y: -305000000
+      - X: 396175526
+        Y: -305000000
+    - - X: -386251712
+        Y: -292574176
+      - X: -386190456
+        Y: -292564913
+      - X: -386236839
+        Y: -285000000
+      - X: -395000000
+        Y: -285000000
+      - X: -395000000
+        Y: -295000000
+      - X: -386236839
+        Y: -295000000
+    - - X: 396175526
+        Y: -275000000
+      - X: 396160000
+        Y: -272467808
+      - X: 394226688
+        Y: -272500736
+      - X: 392933792
+        Y: -273842496
+      - X: 392195168
+        Y: -280246528
+      - X: 392769985
+        Y: -285262739
+      - X: 392195168
+        Y: -290246528
+      - X: 392769985
+        Y: -295262739
+      - X: 392195168
+        Y: -300246528
+      - X: 392769985
+        Y: -305262739
+      - X: 392195168
+        Y: -310246528
+      - X: 392925120
+        Y: -316616544
+      - X: 394426656
+        Y: -317701792
+      - X: 396251712
+        Y: -317425824
+      - X: 396236839
+        Y: -315000000
+      - X: 395000000
+        Y: -315000000
+      - X: 395000000
+        Y: -307615096
+      - X: 396190456
+        Y: -307435087
+      - X: 396175526
+        Y: -305000000
+      - X: 396236839
+        Y: -305000000
+      - X: 396251712
+        Y: -307425824
+      - X: 396190456
+        Y: -307435087
+      - X: 396236839
+        Y: -315000000
+      - X: 405000000
+        Y: -315000000
+      - X: 405000000
+        Y: -275000000
+    - - X: -386251712
+        Y: -302574176
+      - X: -386190456
+        Y: -302564913
+      - X: -386236839
+        Y: -295000000
+      - X: -395000000
+        Y: -295000000
+      - X: -395000000
+        Y: -305000000
+      - X: -386236839
+        Y: -305000000
+  m_CompositePaths:
+    m_Paths:
+    - - {x: -29.338346, y: 24.292511}
+      - {x: -29.22982, y: 24.442667}
+      - {x: -29.257418, y: 24.62517}
+      - {x: -29.5, y: 24.623684}
+      - {x: -29.5, y: 24.5}
+      - {x: -30.23849, y: 24.5}
+      - {x: -30.256493, y: 24.619045}
+      - {x: -29.5, y: 24.623684}
+      - {x: -29.5, y: 25.5}
+      - {x: -33.5, y: 25.5}
+      - {x: -33.5, y: 24.617552}
+      - {x: -33.753216, y: 24.616001}
+      - {x: -33.749928, y: 24.422667}
+      - {x: -33.61575, y: 24.293383}
+      - {x: -32.97535, y: 24.219517}
+      - {x: -32.473713, y: 24.277}
+      - {x: -31.975348, y: 24.219517}
+      - {x: -31.47371, y: 24.276999}
+      - {x: -30.975348, y: 24.219517}
+      - {x: -30.47371, y: 24.276999}
+      - {x: -29.975348, y: 24.219517}
+    - - {x: 18.661654, y: 24.292511}
+      - {x: 18.770178, y: 24.442667}
+      - {x: 18.742582, y: 24.62517}
+      - {x: 18.5, y: 24.623684}
+      - {x: 18.5, y: 24.5}
+      - {x: 17.761509, y: 24.5}
+      - {x: 17.74351, y: 24.619045}
+      - {x: 18.5, y: 24.623684}
+      - {x: 18.5, y: 25.5}
+      - {x: 14.5, y: 25.5}
+      - {x: 14.5, y: 24.617552}
+      - {x: 14.246782, y: 24.616001}
+      - {x: 14.2500725, y: 24.422667}
+      - {x: 14.384252, y: 24.293383}
+      - {x: 15.024652, y: 24.219517}
+      - {x: 15.52629, y: 24.277}
+      - {x: 16.024652, y: 24.219517}
+      - {x: 16.526289, y: 24.276999}
+      - {x: 17.024652, y: 24.219517}
+      - {x: 17.526289, y: 24.276999}
+      - {x: 18.024652, y: 24.219517}
+    - - {x: 34.66165, y: 24.292511}
+      - {x: 34.77018, y: 24.442667}
+      - {x: 34.742584, y: 24.62517}
+      - {x: 34.5, y: 24.623684}
+      - {x: 34.5, y: 24.5}
+      - {x: 33.76151, y: 24.5}
+      - {x: 33.74351, y: 24.619045}
+      - {x: 34.5, y: 24.623684}
+      - {x: 34.5, y: 25.5}
+      - {x: 30.5, y: 25.5}
+      - {x: 30.5, y: 24.617552}
+      - {x: 30.24678, y: 24.616001}
+      - {x: 30.250074, y: 24.422667}
+      - {x: 30.38425, y: 24.293383}
+      - {x: 31.024652, y: 24.219517}
+      - {x: 31.52629, y: 24.276999}
+      - {x: 32.02465, y: 24.219517}
+      - {x: 32.526287, y: 24.276999}
+      - {x: 33.02465, y: 24.219517}
+      - {x: 33.526287, y: 24.276999}
+      - {x: 34.02465, y: 24.219517}
+    - - {x: -13.338347, y: 24.292511}
+      - {x: -13.229822, y: 24.442667}
+      - {x: -13.257418, y: 24.62517}
+      - {x: -13.5, y: 24.623684}
+      - {x: -13.5, y: 24.5}
+      - {x: -14.238491, y: 24.5}
+      - {x: -14.256492, y: 24.619045}
+      - {x: -13.5, y: 24.623684}
+      - {x: -13.5, y: 25.5}
+      - {x: -17.5, y: 25.5}
+      - {x: -17.5, y: 24.617552}
+      - {x: -17.753218, y: 24.616001}
+      - {x: -17.749928, y: 24.422667}
+      - {x: -17.61575, y: 24.293383}
+      - {x: -16.975348, y: 24.219517}
+      - {x: -16.473711, y: 24.276999}
+      - {x: -15.975349, y: 24.219517}
+      - {x: -15.473711, y: 24.276999}
+      - {x: -14.975349, y: 24.219517}
+      - {x: -14.473711, y: 24.276999}
+      - {x: -13.975349, y: 24.219517}
+    - - {x: 2.6616528, y: 24.292511}
+      - {x: 2.7701783, y: 24.442667}
+      - {x: 2.7425823, y: 24.62517}
+      - {x: 2.5, y: 24.623684}
+      - {x: 2.5, y: 24.5}
+      - {x: 1.7615092, y: 24.5}
+      - {x: 1.7435085, y: 24.619045}
+      - {x: 2.5, y: 24.623684}
+      - {x: 2.5, y: 25.5}
+      - {x: -1.5, y: 25.5}
+      - {x: -1.5, y: 24.617552}
+      - {x: -1.7532175, y: 24.616001}
+      - {x: -1.749927, y: 24.422667}
+      - {x: -1.6157496, y: 24.293383}
+      - {x: -0.97534823, y: 24.219517}
+      - {x: -0.4737103, y: 24.276999}
+      - {x: 0.0246517, y: 24.219517}
+      - {x: 0.5262896, y: 24.276999}
+      - {x: 1.0246518, y: 24.219517}
+      - {x: 1.5262897, y: 24.276999}
+      - {x: 2.0246518, y: 24.219517}
+    - - {x: 0.7615091, y: 24.5}
+      - {x: 0.7435084, y: 24.619045}
+      - {x: 1.5, y: 24.623684}
+      - {x: 1.7425824, y: 24.62517}
+      - {x: 1.7435085, y: 24.619045}
+      - {x: 1.5, y: 24.617552}
+      - {x: 1.2467825, y: 24.616001}
+      - {x: 1.2487568, y: 24.5}
+    - - {x: -33.5, y: 24.5}
+      - {x: -33.5, y: 24.617552}
+      - {x: -32.5, y: 24.623684}
+      - {x: -32.257416, y: 24.62517}
+      - {x: -32.25649, y: 24.619045}
+      - {x: -32.5, y: 24.617552}
+      - {x: -32.753216, y: 24.616001}
+      - {x: -32.751244, y: 24.5}
+    - - {x: -32.23849, y: 24.5}
+      - {x: -32.25649, y: 24.619045}
+      - {x: -31.5, y: 24.623684}
+      - {x: -31.257418, y: 24.62517}
+      - {x: -31.256493, y: 24.619045}
+      - {x: -31.5, y: 24.617552}
+      - {x: -31.75322, y: 24.616001}
+      - {x: -31.751245, y: 24.5}
+    - - {x: -31.23849, y: 24.5}
+      - {x: -31.256493, y: 24.619045}
+      - {x: -30.5, y: 24.623684}
+      - {x: -30.257418, y: 24.62517}
+      - {x: -30.256493, y: 24.619045}
+      - {x: -30.5, y: 24.617552}
+      - {x: -30.75322, y: 24.616001}
+      - {x: -30.751245, y: 24.5}
+    - - {x: 16.761509, y: 24.5}
+      - {x: 16.74351, y: 24.619045}
+      - {x: 17.5, y: 24.623684}
+      - {x: 17.742582, y: 24.62517}
+      - {x: 17.74351, y: 24.619045}
+      - {x: 17.5, y: 24.617552}
+      - {x: 17.246782, y: 24.616001}
+      - {x: 17.248756, y: 24.5}
+    - - {x: 15.761509, y: 24.5}
+      - {x: 15.743509, y: 24.619045}
+      - {x: 16.5, y: 24.623684}
+      - {x: 16.742582, y: 24.62517}
+      - {x: 16.74351, y: 24.619045}
+      - {x: 16.5, y: 24.617552}
+      - {x: 16.246782, y: 24.616001}
+      - {x: 16.248756, y: 24.5}
+    - - {x: 14.5, y: 24.5}
+      - {x: 14.5, y: 24.617552}
+      - {x: 15.5, y: 24.623684}
+      - {x: 15.742582, y: 24.62517}
+      - {x: 15.743509, y: 24.619045}
+      - {x: 15.5, y: 24.617552}
+      - {x: 15.246782, y: 24.616001}
+      - {x: 15.248757, y: 24.5}
+    - - {x: 31.76151, y: 24.5}
+      - {x: 31.743507, y: 24.619045}
+      - {x: 32.5, y: 24.623684}
+      - {x: 32.742584, y: 24.62517}
+      - {x: 32.74351, y: 24.619045}
+      - {x: 32.5, y: 24.617552}
+      - {x: 32.246784, y: 24.616001}
+      - {x: 32.24876, y: 24.5}
+    - - {x: -0.2384908, y: 24.5}
+      - {x: -0.2564915, y: 24.619045}
+      - {x: 0.5, y: 24.623684}
+      - {x: 0.7425823, y: 24.62517}
+      - {x: 0.7435084, y: 24.619045}
+      - {x: 0.5, y: 24.617552}
+      - {x: 0.2467824, y: 24.616001}
+      - {x: 0.2487567, y: 24.5}
+    - - {x: -1.5, y: 24.5}
+      - {x: -1.5, y: 24.617552}
+      - {x: -0.5, y: 24.623684}
+      - {x: -0.2574176, y: 24.62517}
+      - {x: -0.2564915, y: 24.619045}
+      - {x: -0.5, y: 24.617552}
+      - {x: -0.7532175, y: 24.616001}
+      - {x: -0.75124323, y: 24.5}
+    - - {x: 30.5, y: 24.5}
+      - {x: 30.5, y: 24.617552}
+      - {x: 31.5, y: 24.623684}
+      - {x: 31.742582, y: 24.62517}
+      - {x: 31.743507, y: 24.619045}
+      - {x: 31.5, y: 24.617552}
+      - {x: 31.24678, y: 24.616001}
+      - {x: 31.248756, y: 24.5}
+    - - {x: -15.238491, y: 24.5}
+      - {x: -15.256492, y: 24.619045}
+      - {x: -14.5, y: 24.623684}
+      - {x: -14.257418, y: 24.62517}
+      - {x: -14.256492, y: 24.619045}
+      - {x: -14.5, y: 24.617552}
+      - {x: -14.753218, y: 24.616001}
+      - {x: -14.751244, y: 24.5}
+    - - {x: -16.238491, y: 24.5}
+      - {x: -16.25649, y: 24.619045}
+      - {x: -15.5, y: 24.623684}
+      - {x: -15.257418, y: 24.62517}
+      - {x: -15.256492, y: 24.619045}
+      - {x: -15.5, y: 24.617552}
+      - {x: -15.753218, y: 24.616001}
+      - {x: -15.751244, y: 24.5}
+    - - {x: -17.5, y: 24.5}
+      - {x: -17.5, y: 24.617552}
+      - {x: -16.5, y: 24.623684}
+      - {x: -16.257418, y: 24.62517}
+      - {x: -16.25649, y: 24.619045}
+      - {x: -16.5, y: 24.617552}
+      - {x: -16.753218, y: 24.616001}
+      - {x: -16.751244, y: 24.5}
+    - - {x: 32.76151, y: 24.5}
+      - {x: 32.74351, y: 24.619045}
+      - {x: 33.5, y: 24.623684}
+      - {x: 33.742584, y: 24.62517}
+      - {x: 33.74351, y: 24.619045}
+      - {x: 33.5, y: 24.617552}
+      - {x: 33.246784, y: 24.616001}
+      - {x: 33.24876, y: 24.5}
+    - - {x: 39.619045, y: 21.25649}
+      - {x: 39.623684, y: 20.5}
+      - {x: 39.62517, y: 20.257418}
+      - {x: 39.619045, y: 20.25649}
+      - {x: 39.623684, y: 19.5}
+      - {x: 39.62517, y: 19.257418}
+      - {x: 39.619045, y: 19.25649}
+      - {x: 39.623684, y: 18.5}
+      - {x: 40.5, y: 18.5}
+      - {x: 40.5, y: 22.5}
+      - {x: 39.617554, y: 22.5}
+      - {x: 39.616, y: 22.753218}
+      - {x: 39.42267, y: 22.749928}
+      - {x: 39.29338, y: 22.61575}
+      - {x: 39.219517, y: 21.975348}
+      - {x: 39.277, y: 21.473726}
+      - {x: 39.219517, y: 20.975348}
+      - {x: 39.277, y: 20.473726}
+      - {x: 39.219517, y: 19.975348}
+      - {x: 39.277, y: 19.473726}
+      - {x: 39.219517, y: 18.975348}
+      - {x: 39.29251, y: 18.338346}
+      - {x: 39.442665, y: 18.229822}
+      - {x: 39.62517, y: 18.257418}
+      - {x: 39.623684, y: 18.5}
+      - {x: 39.5, y: 18.5}
+      - {x: 39.5, y: 19.238491}
+      - {x: 39.619045, y: 19.25649}
+      - {x: 39.617554, y: 19.5}
+      - {x: 39.616, y: 19.753218}
+      - {x: 39.5, y: 19.751244}
+      - {x: 39.5, y: 20.238491}
+      - {x: 39.619045, y: 20.25649}
+      - {x: 39.617554, y: 20.5}
+      - {x: 39.616, y: 20.753218}
+      - {x: 39.5, y: 20.751244}
+      - {x: 39.5, y: 21.238491}
+      - {x: 39.619045, y: 21.25649}
+      - {x: 39.617554, y: 21.5}
+      - {x: 39.616, y: 21.753218}
+      - {x: 39.5, y: 21.751244}
+      - {x: 39.5, y: 22.5}
+      - {x: 39.617554, y: 22.5}
+      - {x: 39.623684, y: 21.5}
+      - {x: 39.62517, y: 21.257418}
+    - - {x: -38.617554, y: 18.5}
+      - {x: -38.616, y: 18.246782}
+      - {x: -38.42267, y: 18.250072}
+      - {x: -38.29338, y: 18.38425}
+      - {x: -38.219517, y: 19.024652}
+      - {x: -38.277, y: 19.526274}
+      - {x: -38.219517, y: 20.024652}
+      - {x: -38.277, y: 20.526274}
+      - {x: -38.219517, y: 21.024652}
+      - {x: -38.277, y: 21.526274}
+      - {x: -38.219517, y: 22.024652}
+      - {x: -38.29251, y: 22.661654}
+      - {x: -38.442665, y: 22.770178}
+      - {x: -38.62517, y: 22.742582}
+      - {x: -38.623684, y: 22.5}
+      - {x: -38.5, y: 22.5}
+      - {x: -38.5, y: 21.761509}
+      - {x: -38.619045, y: 21.74351}
+      - {x: -38.617554, y: 21.5}
+      - {x: -38.616, y: 21.246782}
+      - {x: -38.5, y: 21.248756}
+      - {x: -38.5, y: 20.761509}
+      - {x: -38.619045, y: 20.74351}
+      - {x: -38.617554, y: 20.5}
+      - {x: -38.616, y: 20.246782}
+      - {x: -38.5, y: 20.248756}
+      - {x: -38.5, y: 19.761509}
+      - {x: -38.619045, y: 19.74351}
+      - {x: -38.617554, y: 19.5}
+      - {x: -38.616, y: 19.246782}
+      - {x: -38.5, y: 19.248756}
+      - {x: -38.5, y: 18.5}
+      - {x: -38.617554, y: 18.5}
+      - {x: -38.623684, y: 19.5}
+      - {x: -38.62517, y: 19.742582}
+      - {x: -38.619045, y: 19.74351}
+      - {x: -38.623684, y: 20.5}
+      - {x: -38.62517, y: 20.742582}
+      - {x: -38.619045, y: 20.74351}
+      - {x: -38.623684, y: 21.5}
+      - {x: -38.62517, y: 21.742582}
+      - {x: -38.619045, y: 21.74351}
+      - {x: -38.623684, y: 22.5}
+      - {x: -39.5, y: 22.5}
+      - {x: -39.5, y: 18.5}
+    - - {x: -38.617554, y: 8.5}
+      - {x: -38.616, y: 8.246782}
+      - {x: -38.42267, y: 8.250073}
+      - {x: -38.29338, y: 8.384251}
+      - {x: -38.219517, y: 9.024652}
+      - {x: -38.277, y: 9.526274}
+      - {x: -38.219517, y: 10.024652}
+      - {x: -38.277, y: 10.526274}
+      - {x: -38.219517, y: 11.024652}
+      - {x: -38.277, y: 11.526274}
+      - {x: -38.219517, y: 12.024652}
+      - {x: -38.29251, y: 12.661653}
+      - {x: -38.442665, y: 12.770178}
+      - {x: -38.62517, y: 12.742582}
+      - {x: -38.623684, y: 12.5}
+      - {x: -38.5, y: 12.5}
+      - {x: -38.5, y: 11.761509}
+      - {x: -38.619045, y: 11.743509}
+      - {x: -38.617554, y: 11.5}
+      - {x: -38.616, y: 11.246782}
+      - {x: -38.5, y: 11.248757}
+      - {x: -38.5, y: 10.761509}
+      - {x: -38.619045, y: 10.743509}
+      - {x: -38.617554, y: 10.5}
+      - {x: -38.616, y: 10.246782}
+      - {x: -38.5, y: 10.248757}
+      - {x: -38.5, y: 9.761509}
+      - {x: -38.619045, y: 9.743509}
+      - {x: -38.617554, y: 9.5}
+      - {x: -38.616, y: 9.246782}
+      - {x: -38.5, y: 9.248757}
+      - {x: -38.5, y: 8.5}
+      - {x: -38.617554, y: 8.5}
+      - {x: -38.623684, y: 9.5}
+      - {x: -38.62517, y: 9.742582}
+      - {x: -38.619045, y: 9.743509}
+      - {x: -38.623684, y: 10.5}
+      - {x: -38.62517, y: 10.742582}
+      - {x: -38.619045, y: 10.743509}
+      - {x: -38.623684, y: 11.5}
+      - {x: -38.62517, y: 11.742582}
+      - {x: -38.619045, y: 11.743509}
+      - {x: -38.623684, y: 12.5}
+      - {x: -39.5, y: 12.5}
+      - {x: -39.5, y: 8.5}
+    - - {x: 39.619045, y: 11.256492}
+      - {x: 39.623684, y: 10.5}
+      - {x: 39.62517, y: 10.257418}
+      - {x: 39.619045, y: 10.256492}
+      - {x: 39.623684, y: 9.5}
+      - {x: 39.62517, y: 9.257418}
+      - {x: 39.619045, y: 9.256492}
+      - {x: 39.623684, y: 8.5}
+      - {x: 40.5, y: 8.5}
+      - {x: 40.5, y: 12.5}
+      - {x: 39.617554, y: 12.5}
+      - {x: 39.616, y: 12.753218}
+      - {x: 39.42267, y: 12.749927}
+      - {x: 39.29338, y: 12.615749}
+      - {x: 39.219517, y: 11.975348}
+      - {x: 39.277, y: 11.473726}
+      - {x: 39.219517, y: 10.975348}
+      - {x: 39.277, y: 10.473726}
+      - {x: 39.219517, y: 9.975348}
+      - {x: 39.277, y: 9.473726}
+      - {x: 39.219517, y: 8.975348}
+      - {x: 39.29251, y: 8.338347}
+      - {x: 39.442665, y: 8.229822}
+      - {x: 39.62517, y: 8.257418}
+      - {x: 39.623684, y: 8.5}
+      - {x: 39.5, y: 8.5}
+      - {x: 39.5, y: 9.238491}
+      - {x: 39.619045, y: 9.256492}
+      - {x: 39.617554, y: 9.5}
+      - {x: 39.616, y: 9.753218}
+      - {x: 39.5, y: 9.751244}
+      - {x: 39.5, y: 10.238491}
+      - {x: 39.619045, y: 10.256492}
+      - {x: 39.617554, y: 10.5}
+      - {x: 39.616, y: 10.753218}
+      - {x: 39.5, y: 10.751244}
+      - {x: 39.5, y: 11.238491}
+      - {x: 39.619045, y: 11.256492}
+      - {x: 39.617554, y: 11.5}
+      - {x: 39.616, y: 11.753218}
+      - {x: 39.5, y: 11.751244}
+      - {x: 39.5, y: 12.5}
+      - {x: 39.617554, y: 12.5}
+      - {x: 39.623684, y: 11.5}
+      - {x: 39.62517, y: 11.257418}
+    - - {x: 39.619045, y: 1.2564917}
+      - {x: 39.623684, y: 0.5}
+      - {x: 39.62517, y: 0.2574178}
+      - {x: 39.619045, y: 0.2564916}
+      - {x: 39.623684, y: -0.5}
+      - {x: 39.62517, y: -0.7425822}
+      - {x: 39.619045, y: -0.7435084}
+      - {x: 39.623684, y: -1.5}
+      - {x: 40.5, y: -1.5}
+      - {x: 40.5, y: 2.5}
+      - {x: 39.617554, y: 2.5}
+      - {x: 39.616, y: 2.7532175}
+      - {x: 39.42267, y: 2.749927}
+      - {x: 39.29338, y: 2.6157494}
+      - {x: 39.219517, y: 1.9753482}
+      - {x: 39.277, y: 1.4737266}
+      - {x: 39.219517, y: 0.97534823}
+      - {x: 39.277, y: 0.4737266}
+      - {x: 39.219517, y: -0.0246517}
+      - {x: 39.277, y: -0.5262734}
+      - {x: 39.219517, y: -1.0246518}
+      - {x: 39.29251, y: -1.6616527}
+      - {x: 39.442665, y: -1.7701784}
+      - {x: 39.62517, y: -1.7425822}
+      - {x: 39.623684, y: -1.5}
+      - {x: 39.5, y: -1.5}
+      - {x: 39.5, y: -0.7615089}
+      - {x: 39.619045, y: -0.7435084}
+      - {x: 39.617554, y: -0.5}
+      - {x: 39.616, y: -0.2467824}
+      - {x: 39.5, y: -0.2487568}
+      - {x: 39.5, y: 0.2384911}
+      - {x: 39.619045, y: 0.2564916}
+      - {x: 39.617554, y: 0.5}
+      - {x: 39.616, y: 0.7532175}
+      - {x: 39.5, y: 0.75124323}
+      - {x: 39.5, y: 1.238491}
+      - {x: 39.619045, y: 1.2564917}
+      - {x: 39.617554, y: 1.5}
+      - {x: 39.616, y: 1.7532175}
+      - {x: 39.5, y: 1.7512432}
+      - {x: 39.5, y: 2.5}
+      - {x: 39.617554, y: 2.5}
+      - {x: 39.623684, y: 1.5}
+      - {x: 39.62517, y: 1.2574178}
+    - - {x: -38.617554, y: -1.5}
+      - {x: -38.616, y: -1.7532175}
+      - {x: -38.42267, y: -1.749927}
+      - {x: -38.29338, y: -1.6157495}
+      - {x: -38.219517, y: -0.97534823}
+      - {x: -38.277, y: -0.4737266}
+      - {x: -38.219517, y: 0.024651801}
+      - {x: -38.277, y: 0.5262734}
+      - {x: -38.219517, y: 1.0246518}
+      - {x: -38.277, y: 1.5262734}
+      - {x: -38.219517, y: 2.0246518}
+      - {x: -38.29251, y: 2.6616526}
+      - {x: -38.442665, y: 2.7701783}
+      - {x: -38.62517, y: 2.7425823}
+      - {x: -38.623684, y: 2.5}
+      - {x: -38.5, y: 2.5}
+      - {x: -38.5, y: 1.7615092}
+      - {x: -38.619045, y: 1.7435086}
+      - {x: -38.617554, y: 1.5}
+      - {x: -38.616, y: 1.2467825}
+      - {x: -38.5, y: 1.2487568}
+      - {x: -38.5, y: 0.7615089}
+      - {x: -38.619045, y: 0.7435085}
+      - {x: -38.617554, y: 0.5}
+      - {x: -38.616, y: 0.2467826}
+      - {x: -38.5, y: 0.2487569}
+      - {x: -38.5, y: -0.238491}
+      - {x: -38.619045, y: -0.2564914}
+      - {x: -38.617554, y: -0.5}
+      - {x: -38.616, y: -0.7532174}
+      - {x: -38.5, y: -0.7512431}
+      - {x: -38.5, y: -1.5}
+      - {x: -38.617554, y: -1.5}
+      - {x: -38.623684, y: -0.5}
+      - {x: -38.62517, y: -0.2574176}
+      - {x: -38.619045, y: -0.2564914}
+      - {x: -38.623684, y: 0.5}
+      - {x: -38.62517, y: 0.7425823}
+      - {x: -38.619045, y: 0.7435085}
+      - {x: -38.623684, y: 1.5}
+      - {x: -38.62517, y: 1.7425824}
+      - {x: -38.619045, y: 1.7435086}
+      - {x: -38.623684, y: 2.5}
+      - {x: -39.5, y: 2.5}
+      - {x: -39.5, y: -1.5}
+    - - {x: 39.619045, y: -8.743509}
+      - {x: 39.623684, y: -9.5}
+      - {x: 39.62517, y: -9.742582}
+      - {x: 39.619045, y: -9.743509}
+      - {x: 39.623684, y: -10.5}
+      - {x: 39.62517, y: -10.742582}
+      - {x: 39.619045, y: -10.743509}
+      - {x: 39.623684, y: -11.5}
+      - {x: 40.5, y: -11.5}
+      - {x: 40.5, y: -7.5}
+      - {x: 39.617554, y: -7.5}
+      - {x: 39.616, y: -7.2467823}
+      - {x: 39.42267, y: -7.250073}
+      - {x: 39.29338, y: -7.3842506}
+      - {x: 39.219517, y: -8.024652}
+      - {x: 39.277, y: -8.526274}
+      - {x: 39.219517, y: -9.024652}
+      - {x: 39.277, y: -9.526274}
+      - {x: 39.219517, y: -10.024652}
+      - {x: 39.277, y: -10.526274}
+      - {x: 39.219517, y: -11.024652}
+      - {x: 39.29251, y: -11.661653}
+      - {x: 39.442665, y: -11.770178}
+      - {x: 39.62517, y: -11.742582}
+      - {x: 39.623684, y: -11.5}
+      - {x: 39.5, y: -11.5}
+      - {x: 39.5, y: -10.761509}
+      - {x: 39.619045, y: -10.743509}
+      - {x: 39.617554, y: -10.5}
+      - {x: 39.616, y: -10.246782}
+      - {x: 39.5, y: -10.248757}
+      - {x: 39.5, y: -9.761509}
+      - {x: 39.619045, y: -9.743509}
+      - {x: 39.617554, y: -9.5}
+      - {x: 39.616, y: -9.246782}
+      - {x: 39.5, y: -9.248757}
+      - {x: 39.5, y: -8.761509}
+      - {x: 39.619045, y: -8.743509}
+      - {x: 39.617554, y: -8.5}
+      - {x: 39.616, y: -8.246782}
+      - {x: 39.5, y: -8.248757}
+      - {x: 39.5, y: -7.5}
+      - {x: 39.617554, y: -7.5}
+      - {x: 39.623684, y: -8.5}
+      - {x: 39.62517, y: -8.742582}
+    - - {x: -38.617554, y: -11.5}
+      - {x: -38.616, y: -11.753218}
+      - {x: -38.42267, y: -11.749927}
+      - {x: -38.29338, y: -11.615749}
+      - {x: -38.219517, y: -10.975348}
+      - {x: -38.277, y: -10.473726}
+      - {x: -38.219517, y: -9.975348}
+      - {x: -38.277, y: -9.473726}
+      - {x: -38.219517, y: -8.975348}
+      - {x: -38.277, y: -8.473726}
+      - {x: -38.219517, y: -7.975348}
+      - {x: -38.29251, y: -7.3383474}
+      - {x: -38.442665, y: -7.2298217}
+      - {x: -38.62517, y: -7.2574177}
+      - {x: -38.623684, y: -7.5}
+      - {x: -38.5, y: -7.5}
+      - {x: -38.5, y: -8.238491}
+      - {x: -38.619045, y: -8.256492}
+      - {x: -38.617554, y: -8.5}
+      - {x: -38.616, y: -8.753218}
+      - {x: -38.5, y: -8.751244}
+      - {x: -38.5, y: -9.238491}
+      - {x: -38.619045, y: -9.256492}
+      - {x: -38.617554, y: -9.5}
+      - {x: -38.616, y: -9.753218}
+      - {x: -38.5, y: -9.751244}
+      - {x: -38.5, y: -10.238491}
+      - {x: -38.619045, y: -10.256492}
+      - {x: -38.617554, y: -10.5}
+      - {x: -38.616, y: -10.753218}
+      - {x: -38.5, y: -10.751244}
+      - {x: -38.5, y: -11.5}
+      - {x: -38.617554, y: -11.5}
+      - {x: -38.623684, y: -10.5}
+      - {x: -38.62517, y: -10.257418}
+      - {x: -38.619045, y: -10.256492}
+      - {x: -38.623684, y: -9.5}
+      - {x: -38.62517, y: -9.257418}
+      - {x: -38.619045, y: -9.256492}
+      - {x: -38.623684, y: -8.5}
+      - {x: -38.62517, y: -8.257418}
+      - {x: -38.619045, y: -8.256492}
+      - {x: -38.623684, y: -7.5}
+      - {x: -39.5, y: -7.5}
+      - {x: -39.5, y: -11.5}
+    - - {x: 39.619045, y: -18.74351}
+      - {x: 39.623684, y: -19.5}
+      - {x: 39.62517, y: -19.742582}
+      - {x: 39.619045, y: -19.74351}
+      - {x: 39.623684, y: -20.5}
+      - {x: 39.62517, y: -20.742582}
+      - {x: 39.619045, y: -20.74351}
+      - {x: 39.623684, y: -21.5}
+      - {x: 40.5, y: -21.5}
+      - {x: 40.5, y: -17.5}
+      - {x: 39.617554, y: -17.5}
+      - {x: 39.616, y: -17.246782}
+      - {x: 39.42267, y: -17.250072}
+      - {x: 39.29338, y: -17.38425}
+      - {x: 39.219517, y: -18.024652}
+      - {x: 39.277, y: -18.526274}
+      - {x: 39.219517, y: -19.024652}
+      - {x: 39.277, y: -19.526274}
+      - {x: 39.219517, y: -20.024652}
+      - {x: 39.277, y: -20.526274}
+      - {x: 39.219517, y: -21.024652}
+      - {x: 39.29251, y: -21.661654}
+      - {x: 39.442665, y: -21.770178}
+      - {x: 39.62517, y: -21.742582}
+      - {x: 39.623684, y: -21.5}
+      - {x: 39.5, y: -21.5}
+      - {x: 39.5, y: -20.761509}
+      - {x: 39.619045, y: -20.74351}
+      - {x: 39.617554, y: -20.5}
+      - {x: 39.616, y: -20.246782}
+      - {x: 39.5, y: -20.248756}
+      - {x: 39.5, y: -19.761509}
+      - {x: 39.619045, y: -19.74351}
+      - {x: 39.617554, y: -19.5}
+      - {x: 39.616, y: -19.246782}
+      - {x: 39.5, y: -19.248756}
+      - {x: 39.5, y: -18.761509}
+      - {x: 39.619045, y: -18.74351}
+      - {x: 39.617554, y: -18.5}
+      - {x: 39.616, y: -18.246782}
+      - {x: 39.5, y: -18.248756}
+      - {x: 39.5, y: -17.5}
+      - {x: 39.617554, y: -17.5}
+      - {x: 39.623684, y: -18.5}
+      - {x: 39.62517, y: -18.742582}
+    - - {x: -38.617554, y: -21.5}
+      - {x: -38.616, y: -21.753218}
+      - {x: -38.42267, y: -21.749928}
+      - {x: -38.29338, y: -21.61575}
+      - {x: -38.219517, y: -20.975348}
+      - {x: -38.277, y: -20.473726}
+      - {x: -38.219517, y: -19.975348}
+      - {x: -38.277, y: -19.473726}
+      - {x: -38.219517, y: -18.975348}
+      - {x: -38.277, y: -18.473726}
+      - {x: -38.219517, y: -17.975348}
+      - {x: -38.29251, y: -17.338346}
+      - {x: -38.442665, y: -17.229822}
+      - {x: -38.62517, y: -17.257418}
+      - {x: -38.623684, y: -17.5}
+      - {x: -38.5, y: -17.5}
+      - {x: -38.5, y: -18.238491}
+      - {x: -38.619045, y: -18.25649}
+      - {x: -38.617554, y: -18.5}
+      - {x: -38.616, y: -18.753218}
+      - {x: -38.5, y: -18.751244}
+      - {x: -38.5, y: -19.238491}
+      - {x: -38.619045, y: -19.25649}
+      - {x: -38.617554, y: -19.5}
+      - {x: -38.616, y: -19.753218}
+      - {x: -38.5, y: -19.751244}
+      - {x: -38.5, y: -20.238491}
+      - {x: -38.619045, y: -20.25649}
+      - {x: -38.617554, y: -20.5}
+      - {x: -38.616, y: -20.753218}
+      - {x: -38.5, y: -20.751244}
+      - {x: -38.5, y: -21.5}
+      - {x: -38.617554, y: -21.5}
+      - {x: -38.623684, y: -20.5}
+      - {x: -38.62517, y: -20.257418}
+      - {x: -38.619045, y: -20.25649}
+      - {x: -38.623684, y: -19.5}
+      - {x: -38.62517, y: -19.257418}
+      - {x: -38.619045, y: -19.25649}
+      - {x: -38.623684, y: -18.5}
+      - {x: -38.62517, y: -18.257418}
+      - {x: -38.619045, y: -18.25649}
+      - {x: -38.623684, y: -17.5}
+      - {x: -39.5, y: -17.5}
+      - {x: -39.5, y: -21.5}
+    - - {x: 39.619045, y: -28.743507}
+      - {x: 39.623684, y: -29.5}
+      - {x: 39.62517, y: -29.742582}
+      - {x: 39.619045, y: -29.743507}
+      - {x: 39.623684, y: -30.5}
+      - {x: 39.62517, y: -30.742582}
+      - {x: 39.619045, y: -30.743507}
+      - {x: 39.623684, y: -31.5}
+      - {x: 40.5, y: -31.5}
+      - {x: 40.5, y: -27.5}
+      - {x: 39.617554, y: -27.5}
+      - {x: 39.616, y: -27.24678}
+      - {x: 39.42267, y: -27.250074}
+      - {x: 39.29338, y: -27.38425}
+      - {x: 39.219517, y: -28.024652}
+      - {x: 39.277, y: -28.526276}
+      - {x: 39.219517, y: -29.024652}
+      - {x: 39.277, y: -29.526276}
+      - {x: 39.219517, y: -30.024652}
+      - {x: 39.277, y: -30.526276}
+      - {x: 39.219517, y: -31.024652}
+      - {x: 39.29251, y: -31.661655}
+      - {x: 39.442665, y: -31.77018}
+      - {x: 39.62517, y: -31.742582}
+      - {x: 39.623684, y: -31.5}
+      - {x: 39.5, y: -31.5}
+      - {x: 39.5, y: -30.76151}
+      - {x: 39.619045, y: -30.743507}
+      - {x: 39.617554, y: -30.5}
+      - {x: 39.616, y: -30.24678}
+      - {x: 39.5, y: -30.248756}
+      - {x: 39.5, y: -29.76151}
+      - {x: 39.619045, y: -29.743507}
+      - {x: 39.617554, y: -29.5}
+      - {x: 39.616, y: -29.24678}
+      - {x: 39.5, y: -29.248756}
+      - {x: 39.5, y: -28.76151}
+      - {x: 39.619045, y: -28.743507}
+      - {x: 39.617554, y: -28.5}
+      - {x: 39.616, y: -28.24678}
+      - {x: 39.5, y: -28.248756}
+      - {x: 39.5, y: -27.5}
+      - {x: 39.617554, y: -27.5}
+      - {x: 39.623684, y: -28.5}
+      - {x: 39.62517, y: -28.742582}
+    - - {x: -38.617554, y: -31.5}
+      - {x: -38.616, y: -31.75322}
+      - {x: -38.42267, y: -31.749928}
+      - {x: -38.29338, y: -31.615751}
+      - {x: -38.219517, y: -30.975348}
+      - {x: -38.277, y: -30.473724}
+      - {x: -38.219517, y: -29.975348}
+      - {x: -38.277, y: -29.473724}
+      - {x: -38.219517, y: -28.975348}
+      - {x: -38.277, y: -28.473724}
+      - {x: -38.219517, y: -27.975348}
+      - {x: -38.29251, y: -27.338346}
+      - {x: -38.442665, y: -27.22982}
+      - {x: -38.62517, y: -27.257418}
+      - {x: -38.623684, y: -27.5}
+      - {x: -38.5, y: -27.5}
+      - {x: -38.5, y: -28.23849}
+      - {x: -38.619045, y: -28.256493}
+      - {x: -38.617554, y: -28.5}
+      - {x: -38.616, y: -28.75322}
+      - {x: -38.5, y: -28.751245}
+      - {x: -38.5, y: -29.23849}
+      - {x: -38.619045, y: -29.256493}
+      - {x: -38.617554, y: -29.5}
+      - {x: -38.616, y: -29.75322}
+      - {x: -38.5, y: -29.751245}
+      - {x: -38.5, y: -30.23849}
+      - {x: -38.619045, y: -30.256493}
+      - {x: -38.617554, y: -30.5}
+      - {x: -38.616, y: -30.75322}
+      - {x: -38.5, y: -30.751245}
+      - {x: -38.5, y: -31.5}
+      - {x: -38.617554, y: -31.5}
+      - {x: -38.623684, y: -30.5}
+      - {x: -38.62517, y: -30.257418}
+      - {x: -38.619045, y: -30.256493}
+      - {x: -38.623684, y: -29.5}
+      - {x: -38.62517, y: -29.257418}
+      - {x: -38.619045, y: -29.256493}
+      - {x: -38.623684, y: -28.5}
+      - {x: -38.62517, y: -28.257418}
+      - {x: -38.619045, y: -28.256493}
+      - {x: -38.623684, y: -27.5}
+      - {x: -39.5, y: -27.5}
+      - {x: -39.5, y: -31.5}
+    - - {x: 18.5, y: -33.617554}
+      - {x: 18.753218, y: -33.616}
+      - {x: 18.749928, y: -33.42267}
+      - {x: 18.61575, y: -33.29338}
+      - {x: 17.975348, y: -33.219517}
+      - {x: 17.473726, y: -33.277}
+      - {x: 16.975348, y: -33.219517}
+      - {x: 16.473726, y: -33.277}
+      - {x: 15.975349, y: -33.219517}
+      - {x: 15.473726, y: -33.277}
+      - {x: 14.975349, y: -33.219517}
+      - {x: 14.338347, y: -33.29251}
+      - {x: 14.229822, y: -33.442665}
+      - {x: 14.257418, y: -33.62517}
+      - {x: 14.5, y: -33.623684}
+      - {x: 14.5, y: -33.5}
+      - {x: 15.238491, y: -33.5}
+      - {x: 15.256492, y: -33.619045}
+      - {x: 14.5, y: -33.623684}
+      - {x: 14.5, y: -34.5}
+      - {x: 18.5, y: -34.5}
+    - - {x: 2.5, y: -33.617554}
+      - {x: 2.7532177, y: -33.616}
+      - {x: 2.749927, y: -33.42267}
+      - {x: 2.6157496, y: -33.29338}
+      - {x: 1.9753482, y: -33.219517}
+      - {x: 1.4737266, y: -33.277}
+      - {x: 0.97534823, y: -33.219517}
+      - {x: 0.4737266, y: -33.277}
+      - {x: -0.0246517, y: -33.219517}
+      - {x: -0.5262733, y: -33.277}
+      - {x: -1.0246518, y: -33.219517}
+      - {x: -1.6616528, y: -33.29251}
+      - {x: -1.7701784, y: -33.442665}
+      - {x: -1.7425824, y: -33.62517}
+      - {x: -1.5, y: -33.623684}
+      - {x: -1.5, y: -33.5}
+      - {x: -0.7615089, y: -33.5}
+      - {x: -0.7435084, y: -33.619045}
+      - {x: -1.5, y: -33.623684}
+      - {x: -1.5, y: -34.5}
+      - {x: 2.5, y: -34.5}
+    - - {x: -29.5, y: -33.617554}
+      - {x: -29.24678, y: -33.616}
+      - {x: -29.250074, y: -33.42267}
+      - {x: -29.38425, y: -33.29338}
+      - {x: -30.024652, y: -33.219517}
+      - {x: -30.526276, y: -33.277}
+      - {x: -31.024652, y: -33.219517}
+      - {x: -31.526272, y: -33.277}
+      - {x: -32.02465, y: -33.219517}
+      - {x: -32.52627, y: -33.277}
+      - {x: -33.02465, y: -33.219517}
+      - {x: -33.66165, y: -33.29251}
+      - {x: -33.77018, y: -33.442665}
+      - {x: -33.74258, y: -33.62517}
+      - {x: -33.5, y: -33.623684}
+      - {x: -33.5, y: -33.5}
+      - {x: -32.76151, y: -33.5}
+      - {x: -32.743507, y: -33.619045}
+      - {x: -33.5, y: -33.623684}
+      - {x: -33.5, y: -34.5}
+      - {x: -29.5, y: -34.5}
+    - - {x: -13.5, y: -33.617554}
+      - {x: -13.246782, y: -33.616}
+      - {x: -13.2500725, y: -33.42267}
+      - {x: -13.384251, y: -33.29338}
+      - {x: -14.024652, y: -33.219517}
+      - {x: -14.526274, y: -33.277}
+      - {x: -15.024652, y: -33.219517}
+      - {x: -15.526274, y: -33.277}
+      - {x: -16.024652, y: -33.219517}
+      - {x: -16.526274, y: -33.277}
+      - {x: -17.024652, y: -33.219517}
+      - {x: -17.661654, y: -33.29251}
+      - {x: -17.770178, y: -33.442665}
+      - {x: -17.742582, y: -33.62517}
+      - {x: -17.5, y: -33.623684}
+      - {x: -17.5, y: -33.5}
+      - {x: -16.761509, y: -33.5}
+      - {x: -16.74351, y: -33.619045}
+      - {x: -17.5, y: -33.623684}
+      - {x: -17.5, y: -34.5}
+      - {x: -13.5, y: -34.5}
+    - - {x: 34.5, y: -33.617554}
+      - {x: 34.753216, y: -33.616}
+      - {x: 34.749928, y: -33.42267}
+      - {x: 34.61575, y: -33.29338}
+      - {x: 33.97535, y: -33.219517}
+      - {x: 33.47373, y: -33.277}
+      - {x: 32.97535, y: -33.219517}
+      - {x: 32.47373, y: -33.277}
+      - {x: 31.975348, y: -33.219517}
+      - {x: 31.473724, y: -33.277}
+      - {x: 30.975348, y: -33.219517}
+      - {x: 30.338346, y: -33.29251}
+      - {x: 30.22982, y: -33.442665}
+      - {x: 30.257418, y: -33.62517}
+      - {x: 30.5, y: -33.623684}
+      - {x: 30.5, y: -33.5}
+      - {x: 31.23849, y: -33.5}
+      - {x: 31.256493, y: -33.619045}
+      - {x: 30.5, y: -33.623684}
+      - {x: 30.5, y: -34.5}
+      - {x: 34.5, y: -34.5}
+    - - {x: -14.743509, y: -33.619045}
+      - {x: -14.5, y: -33.617554}
+      - {x: -14.246782, y: -33.616}
+      - {x: -14.248757, y: -33.5}
+      - {x: -13.5, y: -33.5}
+      - {x: -13.5, y: -33.617554}
+      - {x: -14.5, y: -33.623684}
+      - {x: -14.742582, y: -33.62517}
+    - - {x: -31.743507, y: -33.619045}
+      - {x: -31.5, y: -33.617554}
+      - {x: -31.24678, y: -33.616}
+      - {x: -31.248756, y: -33.5}
+      - {x: -30.76151, y: -33.5}
+      - {x: -30.743507, y: -33.619045}
+      - {x: -31.5, y: -33.623684}
+      - {x: -31.742582, y: -33.62517}
+    - - {x: 17.25649, y: -33.619045}
+      - {x: 17.5, y: -33.617554}
+      - {x: 17.753218, y: -33.616}
+      - {x: 17.751244, y: -33.5}
+      - {x: 18.5, y: -33.5}
+      - {x: 18.5, y: -33.617554}
+      - {x: 17.5, y: -33.623684}
+      - {x: 17.257418, y: -33.62517}
+    - - {x: 16.25649, y: -33.619045}
+      - {x: 16.5, y: -33.617554}
+      - {x: 16.753218, y: -33.616}
+      - {x: 16.751244, y: -33.5}
+      - {x: 17.238491, y: -33.5}
+      - {x: 17.25649, y: -33.619045}
+      - {x: 16.5, y: -33.623684}
+      - {x: 16.257418, y: -33.62517}
+    - - {x: 1.2564915, y: -33.619045}
+      - {x: 1.5, y: -33.617554}
+      - {x: 1.7532176, y: -33.616}
+      - {x: 1.7512432, y: -33.5}
+      - {x: 2.5, y: -33.5}
+      - {x: 2.5, y: -33.617554}
+      - {x: 1.5, y: -33.623684}
+      - {x: 1.2574177, y: -33.62517}
+    - - {x: 31.256493, y: -33.619045}
+      - {x: 31.5, y: -33.617554}
+      - {x: 31.75322, y: -33.616}
+      - {x: 31.751245, y: -33.5}
+      - {x: 32.238495, y: -33.5}
+      - {x: 32.256493, y: -33.619045}
+      - {x: 31.5, y: -33.623684}
+      - {x: 31.257418, y: -33.62517}
+    - - {x: 15.256492, y: -33.619045}
+      - {x: 15.5, y: -33.617554}
+      - {x: 15.753218, y: -33.616}
+      - {x: 15.751244, y: -33.5}
+      - {x: 16.238491, y: -33.5}
+      - {x: 16.25649, y: -33.619045}
+      - {x: 15.5, y: -33.623684}
+      - {x: 15.257418, y: -33.62517}
+    - - {x: 0.2564915, y: -33.619045}
+      - {x: 0.5, y: -33.617554}
+      - {x: 0.75321764, y: -33.616}
+      - {x: 0.7512433, y: -33.5}
+      - {x: 1.238491, y: -33.5}
+      - {x: 1.2564915, y: -33.619045}
+      - {x: 0.5, y: -33.623684}
+      - {x: 0.2574177, y: -33.62517}
+    - - {x: 33.256493, y: -33.619045}
+      - {x: 33.5, y: -33.617554}
+      - {x: 33.753216, y: -33.616}
+      - {x: 33.751244, y: -33.5}
+      - {x: 34.5, y: -33.5}
+      - {x: 34.5, y: -33.617554}
+      - {x: 33.5, y: -33.623684}
+      - {x: 33.25742, y: -33.62517}
+    - - {x: -15.743509, y: -33.619045}
+      - {x: -15.5, y: -33.617554}
+      - {x: -15.246782, y: -33.616}
+      - {x: -15.248757, y: -33.5}
+      - {x: -14.761509, y: -33.5}
+      - {x: -14.743509, y: -33.619045}
+      - {x: -15.5, y: -33.623684}
+      - {x: -15.742582, y: -33.62517}
+    - - {x: -16.74351, y: -33.619045}
+      - {x: -16.5, y: -33.617554}
+      - {x: -16.246782, y: -33.616}
+      - {x: -16.248756, y: -33.5}
+      - {x: -15.761509, y: -33.5}
+      - {x: -15.743509, y: -33.619045}
+      - {x: -16.5, y: -33.623684}
+      - {x: -16.742582, y: -33.62517}
+    - - {x: -30.743507, y: -33.619045}
+      - {x: -30.5, y: -33.617554}
+      - {x: -30.24678, y: -33.616}
+      - {x: -30.248756, y: -33.5}
+      - {x: -29.5, y: -33.5}
+      - {x: -29.5, y: -33.617554}
+      - {x: -30.5, y: -33.623684}
+      - {x: -30.742582, y: -33.62517}
+    - - {x: -32.743507, y: -33.619045}
+      - {x: -32.5, y: -33.617554}
+      - {x: -32.246784, y: -33.616}
+      - {x: -32.24876, y: -33.5}
+      - {x: -31.76151, y: -33.5}
+      - {x: -31.743507, y: -33.619045}
+      - {x: -32.5, y: -33.623684}
+      - {x: -32.74258, y: -33.62517}
+    - - {x: 32.256493, y: -33.619045}
+      - {x: 32.5, y: -33.617554}
+      - {x: 32.753216, y: -33.616}
+      - {x: 32.751244, y: -33.5}
+      - {x: 33.238495, y: -33.5}
+      - {x: 33.256493, y: -33.619045}
+      - {x: 32.5, y: -33.623684}
+      - {x: 32.25742, y: -33.62517}
+    - - {x: -0.7435084, y: -33.619045}
+      - {x: -0.5, y: -33.617554}
+      - {x: -0.2467824, y: -33.616}
+      - {x: -0.2487567, y: -33.5}
+      - {x: 0.238491, y: -33.5}
+      - {x: 0.2564915, y: -33.619045}
+      - {x: -0.5, y: -33.623684}
+      - {x: -0.7425822, y: -33.62517}
+  m_VertexDistance: 0.0005
+--- !u!50 &898121082
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 898121079}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!19719996 &898121083
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 898121079}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+--- !u!483693784 &898121084
+TilemapRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 898121079}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 110
+  m_ChunkSize: {x: 32, y: 32, z: 32}
+  m_MaxChunkCount: 16
+  m_MaxFrameAge: 16
+  m_SortOrder: 0
+  m_MaskInteraction: 0
+--- !u!1839735485 &898121085
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 898121079}
+  m_Enabled: 1
+  m_Tiles:
+  - first: {x: -33, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -32, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -31, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -30, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -17, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -16, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -15, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -14, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -1, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 0, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 1, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 2, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 15, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 16, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 17, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 18, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 31, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 32, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 33, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 34, y: -34, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -33, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -32, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -31, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -30, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -17, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -16, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -15, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -14, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -1, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 0, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 2, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 15, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 16, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 17, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 18, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 31, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 32, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 33, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 34, y: -33, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -39, y: -31, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -31, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -31, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -31, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -30, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -30, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -30, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -30, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -29, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -29, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -29, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -29, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -28, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -28, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -28, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -28, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -21, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -21, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -21, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -21, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -20, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -20, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -20, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -20, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -19, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -19, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -19, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -19, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -18, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -18, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -18, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -18, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -11, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -11, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -11, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -11, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -10, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -10, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -10, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -10, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -9, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -9, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -9, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -9, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -8, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -8, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -8, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -8, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: -1, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: -1, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: -1, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: -1, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 0, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 0, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 0, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 0, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 1, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 1, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 1, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 1, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 2, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 2, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 2, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 2, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 9, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 9, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 9, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 9, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 10, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 10, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 10, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 10, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 11, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 11, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 11, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 11, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 12, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 12, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 12, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 12, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 19, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 19, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 19, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 19, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 20, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 20, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 20, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 20, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 21, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 21, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 21, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 21, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -39, y: 22, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -38, y: 22, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 39, y: 22, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 2
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 40, y: 22, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -33, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -32, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -31, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -30, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -17, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -16, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -15, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -14, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -1, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 0, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 1, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 2, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 15, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 16, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 17, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 18, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 31, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 32, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 33, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: 34, y: 24, z: 0}
+    second:
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -33, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -32, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -31, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -30, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -17, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -16, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -15, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -14, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: -1, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 0, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 1, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 2, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 15, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 16, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 17, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 18, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 31, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 32, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 33, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  - first: {x: 34, y: 25, z: 0}
+    second:
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 2
+  m_AnimatedTiles: {}
+  m_TileAssetArray:
+  - m_RefCount: 88
+    m_Data: {fileID: 11400000, guid: d1ae3505c31855241a18eff8dca36f17, type: 2}
+  - m_RefCount: 88
+    m_Data: {fileID: 11400000, guid: f570386f52e161a418b3c7686a5d02d3, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 88
+    m_Data: {fileID: 21300014, guid: c992b6c47ad65734c859090ff6f2888f, type: 3}
+  - m_RefCount: 88
+    m_Data: {fileID: 21300000, guid: 6acfdd011de87664abec9650623938ef, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 108
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - m_RefCount: 20
+    m_Data:
+      e00: -1
+      e01: 0.00000008742278
+      e02: 0
+      e03: 0
+      e10: -0.00000008742278
+      e11: -1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - m_RefCount: 24
+    m_Data:
+      e00: 0.000000059604645
+      e01: 0.99999994
+      e02: 0
+      e03: 0
+      e10: -0.99999994
+      e11: 0.000000059604645
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - m_RefCount: 24
+    m_Data:
+      e00: 0.000000059604645
+      e01: -0.99999994
+      e02: 0
+      e03: 0
+      e10: 0.99999994
+      e11: 0.000000059604645
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_TileColorArray:
+  - m_RefCount: 176
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: -39, y: -34, z: 0}
+  m_Size: {x: 80, y: 60, z: 1}
+  m_TileAnchor: {x: 0, y: 0, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_TileRefreshArray:
+  - serializedVersion: 1
+    m_DirtyIndex: 0
+  - serializedVersion: 1
+    m_DirtyIndex: 0
+--- !u!1001 &1736593437
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 418634446}
+    m_Modifications:
+    - target: {fileID: 4939035395804832, guid: 32fb2768b2e8b6f408c7edf7162858dc, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939035395804832, guid: 32fb2768b2e8b6f408c7edf7162858dc, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939035395804832, guid: 32fb2768b2e8b6f408c7edf7162858dc, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939035395804832, guid: 32fb2768b2e8b6f408c7edf7162858dc, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939035395804832, guid: 32fb2768b2e8b6f408c7edf7162858dc, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939035395804832, guid: 32fb2768b2e8b6f408c7edf7162858dc, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939035395804832, guid: 32fb2768b2e8b6f408c7edf7162858dc, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4939035395804832, guid: 32fb2768b2e8b6f408c7edf7162858dc, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114694427361245308, guid: 32fb2768b2e8b6f408c7edf7162858dc,
+        type: 2}
+      propertyPath: hudNeedle
+      value: 
+      objectReference: {fileID: 804646542}
+    - target: {fileID: 114694427361245308, guid: 32fb2768b2e8b6f408c7edf7162858dc,
+        type: 2}
+      propertyPath: fireWarning
+      value: 
+      objectReference: {fileID: 804646541}
+    - target: {fileID: 114831300156279708, guid: 32fb2768b2e8b6f408c7edf7162858dc,
+        type: 2}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 89592529}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 32fb2768b2e8b6f408c7edf7162858dc, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1736593438 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4939035395804832, guid: 32fb2768b2e8b6f408c7edf7162858dc,
+    type: 2}
+  m_PrefabInternal: {fileID: 1736593437}
+--- !u!1 &2097988119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2097988125}
+  - component: {fileID: 2097988124}
+  - component: {fileID: 2097988123}
+  - component: {fileID: 2097988122}
+  - component: {fileID: 2097988121}
+  - component: {fileID: 2097988120}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2097988120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2097988119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa22c231acfd5e4e8059676adc9492f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2097988121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2097988119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 0.3
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Cinemachine.CinemachineBrain+VcamEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!81 &2097988122
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2097988119}
+  m_Enabled: 1
+--- !u!124 &2097988123
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2097988119}
+  m_Enabled: 1
+--- !u!20 &2097988124
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2097988119}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.1
+  far clip plane: 5000
+  field of view: 40
+  orthographic: 1
+  orthographic size: 4.5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &2097988125
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2097988119}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: -7.3032875, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
