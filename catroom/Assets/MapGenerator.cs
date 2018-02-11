@@ -8,10 +8,12 @@ public class MapGenerator : MonoBehaviour {
 	public float roomHeight = 10;
 	public Grid grid;
 	public Transform player;
-	public float roomCullDistance;
+	public Vector2 roomCullDistance;
 
 	public List<Transform> roomTemplates;
 
+	int columns;
+	int rows;
 
 	List<Transform> rooms = new List<Transform>();
 
@@ -34,6 +36,9 @@ public class MapGenerator : MonoBehaviour {
 		rows = Mathf.Max (rows, 4);
 		columns = columns % 2 == 0 ? columns + 1 : columns;
 		rows = rows % 2 == 0 ? rows : rows + 1;
+
+		this.columns = columns;
+		this.rows = rows;
 
 		Debug.Log (new Vector2Int (columns, rows));
 
@@ -71,7 +76,8 @@ public class MapGenerator : MonoBehaviour {
 
 	public void CullRooms() {
 		for (int i = 0; i < rooms.Count; i++) {
-			rooms [i].gameObject.SetActive (Vector2.Distance (rooms [i].position, player.position) < roomCullDistance);
+			bool active = (Mathf.Abs(rooms [i].position.x - player.position.x) <= roomCullDistance.x && Mathf.Abs(rooms [i].position.y - player.position.y) <= roomCullDistance.y);
+			rooms [i].gameObject.SetActive (active);
 		}
 	}
 }

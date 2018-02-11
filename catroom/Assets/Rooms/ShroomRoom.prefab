@@ -88,8 +88,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4142361074785978}
-  - component: {fileID: 60893427162873612}
   - component: {fileID: 114531205477734740}
+  - component: {fileID: 61133481368758016}
+  - component: {fileID: 61643673500935674}
   m_Layer: 13
   m_Name: CameraBounds
   m_TagString: Untagged
@@ -177,7 +178,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1893120281962092}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.800066, z: -10}
+  m_LocalPosition: {x: 0, y: -2.8032875, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4072876175548346}
@@ -263,8 +264,8 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1
---- !u!60 &60893427162873612
-PolygonCollider2D:
+--- !u!61 &61133481368758016
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -275,7 +276,7 @@ PolygonCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 6.4085674}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -285,12 +286,34 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 8.018179, y: -9.506057}
-      - {x: 8.007413, y: 9.5114765}
-      - {x: -8.0314665, y: 9.586565}
-      - {x: -8.0244055, y: -9.524887}
+  serializedVersion: 2
+  m_Size: {x: 14.5, y: 5.682865}
+  m_EdgeRadius: 0
+--- !u!61 &61643673500935674
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1618196637189798}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -6.307541}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.5, y: 5.589466}
+  m_EdgeRadius: 0
 --- !u!66 &66106136648021958
 CompositeCollider2D:
   m_ObjectHideFlags: 1
@@ -359,7 +382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 114215738647611198}
-  m_PathPosition: 0.5535424
+  m_PathPosition: 0.30290568
   m_PositionUnits: 0
   m_PathOffset: {x: 0, y: 0, z: 0}
   m_XDamping: 0
@@ -401,6 +424,12 @@ MonoBehaviour:
   minHealthMultiplier: -5
   hudNeedle: {fileID: 0}
   fireWarning: {fileID: 0}
+  showDebug: 0
+  debugStats:
+    MushroomHealthLabel: {fileID: 0}
+    MushroomTemperatureLabel: {fileID: 0}
+    FireTemperaturesLabel: {fileID: 0}
+    FireHeatLabel: {fileID: 0}
 --- !u!114 &114745148276918744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1894,9 +1923,9 @@ Tilemap:
       e03: 0
       e10: -0.99999994
       e11: 0.000000059604645
-      e12: -0
+      e12: 0
       e13: 0
-      e20: -0
+      e20: 0
       e21: 0
       e22: 1
       e23: 0
@@ -1981,8 +2010,8 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -8, y: -10, z: 0}
-  m_Size: {x: 16, y: 20, z: 1}
+  m_Origin: {x: -40, y: -30, z: 0}
+  m_Size: {x: 80, y: 60, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
