@@ -10,12 +10,12 @@ public class MapGenerator : MonoBehaviour {
 	public Transform player;
 	public Vector2 roomCullDistance;
 
-	public List<Transform> roomTemplates;
+	public List<Room> roomTemplates;
 
 	int columns;
 	int rows;
 
-	List<Transform> rooms = new List<Transform>();
+	List<Room> rooms = new List<Room>();
 
 	static MapGenerator _instance;
 	public static MapGenerator instance {
@@ -56,7 +56,7 @@ public class MapGenerator : MonoBehaviour {
 					
 					Vector2 position = topLeft + Vector2.Scale (cursor, roomSize);
 
-					Transform template = roomTemplates[Random.Range(0, roomTemplates.Count)];
+					Room template = roomTemplates[Random.Range(0, roomTemplates.Count)];
 					var room = Instantiate (template, position, Quaternion.identity, grid.transform);
 
 					rooms.Add (room);
@@ -76,7 +76,7 @@ public class MapGenerator : MonoBehaviour {
 
 	public void CullRooms() {
 		for (int i = 0; i < rooms.Count; i++) {
-			bool active = (Mathf.Abs(rooms [i].position.x - player.position.x) <= roomCullDistance.x && Mathf.Abs(rooms [i].position.y - player.position.y) <= roomCullDistance.y);
+			bool active = (Mathf.Abs(rooms [i].transform.position.x - player.position.x) <= roomCullDistance.x && Mathf.Abs(rooms [i].transform.position.y - player.position.y) <= roomCullDistance.y);
 			rooms [i].gameObject.SetActive (active);
 		}
 	}
